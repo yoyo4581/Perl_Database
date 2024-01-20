@@ -1,0 +1,2842 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_147503</BlastOutput_query-ID>
+  <BlastOutput_query-def>CAR1_DICDI|Cyclic AMP receptor 1</BlastOutput_query-def>
+  <BlastOutput_query-len>392</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_147503</Iteration_query-ID>
+  <Iteration_query-def>CAR1_DICDI|Cyclic AMP receptor 1</Iteration_query-def>
+  <Iteration_query-len>392</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|66822497|ref|XP_644603.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium discoideum AX4] &gt;gi|66822587|ref|XP_644648.1| G-protein-coupled receptor [Dictyostelium discoideum AX4] &gt;gi|115617|sp|P13773.1|CAR1_DICDI RecName: Full=Cyclic AMP receptor 1; Short=cAMP receptor 1 &gt;gi|167684|gb|AAA33177.1| cAMP receptor [Dictyostelium discoideum] &gt;gi|60472703|gb|EAL70653.1| G-protein-coupled receptor [Dictyostelium discoideum AX4] &gt;gi|60472771|gb|EAL70721.1| G-protein-coupled receptor [Dictyostelium discoideum AX4]</Hit_def>
+  <Hit_accession>XP_644603</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>810.446</Hsp_bit-score>
+      <Hsp_score>2092</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>MGLLDGNPANETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTVEMQNIQISTSTNGQGNN</Hsp_qseq>
+      <Hsp_hseq>MGLLDGNPANETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTVEMQNIQISTSTNGQGNN</Hsp_hseq>
+      <Hsp_midline>MGLLDGNPANETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTVEMQNIQISTSTNGQGNN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|330840615|ref|XP_003292308.1|</Hit_id>
+  <Hit_def>hypothetical protein DICPUDRAFT_99295 [Dictyostelium purpureum] &gt;gi|325077450|gb|EGC31161.1| hypothetical protein DICPUDRAFT_99295 [Dictyostelium purpureum]</Hit_def>
+  <Hit_accession>XP_003292308</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.586</Hsp_bit-score>
+      <Hsp_score>1542</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>MGLLDGNPANETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTVEMQNIQISTSTNGQGNN</Hsp_qseq>
+      <Hsp_hseq>MGLLTGVPANDANLVLLLFADFTSMLGCLAVLVGFWRLKLLRNHVTKVIACFCATSFCKDFPSTVLTLTNTAKNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYMLCWGLPLISAIIMLAKDTVEFTGAWCWIGNSYTGYRFGLFYGPFLGIWAISAILVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWMFAVVNRILNGLDKYPPAITCLHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILSIFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTGG---TEVELPNYSDMEQCSLE---GVNHAQNNNDNNYGLP---NDAGCSTSSSSSSSDEND--KGKGIQISSSTNGNGNN</Hsp_hseq>
+      <Hsp_midline>MGLL G PAN+ +LVLLLFADF+SMLGC+AVL+GFWRLKLLRNHVTKVIACFCATSFCKDFPST+LTLTNTA NGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYY+LCWGLPLIS I+MLAK+TV+F G WCWIG S+TGYRFGLFYGPFL IWAISA+LVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCW+FAVVNRI+NGL+ +PPA+  LHTYLSVSHGFWASVTFIYNNPLMWRYFGAKIL++FTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKT G   T  ++   SDMEQCSLE    + + Q N +NNYGL    ND G S+SS SSS +E    + + IQIS+STNG GNN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|193290459|gb|ACF17590.1|</Hit_id>
+  <Hit_def>cAMP receptor TasB [Polysphondylium pallidum]</Hit_def>
+  <Hit_accession>ACF17590</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.159</Hsp_bit-score>
+      <Hsp_score>1206</Hsp_score>
+      <Hsp_evalue>1.04581e-161</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTV</Hsp_qseq>
+      <Hsp_hseq>AILLIADVTSIIGAFIVLIGFWRLKLLRNHVTRVISCFCITSFCKDLTAMTLTITNSAQYGGFPCYLYSIVITYGSLSCWLWTLCLAVSIYLLIVKRYPEPERLERYYFFICWGLPLISTITMLAKDTVHFLGNWCWIGEQYTGYRFGLFYVPFFIIFGVSAILVGLTCHYTYQVIHKGVSDNKDKHITYQFKLVNYIIVFLVCWIFAVINRILNAFGVFPYICNVLHTYLSVSHGFFASAVFIYNNPLMWRYIGSKFIRMFTMFGLCIDTAKRLERNKNNNNPSPYSSSRG-APSTKSNNQSNNGMETSSYDDDCTRDS-PSGADNIQTSPPLPPPVSLSTDELPPQENIDEESPQPQPI</Hsp_hseq>
+      <Hsp_midline> +LL AD +S++G   VLIGFWRLKLLRNHVT+VI+CFC TSFCKD  +  LT+TN+A  GGFPCYLY+IVITYGS +CWLWTLCLA+SIY+LIVKR PEPER E+YY+ +CWGLPLISTI MLAK+TV F+GNWCWIG  +TGYRFGLFY PF  I+ +SA+LVGLT  YTY VIH GVSDNK+KH+TYQFKL+NYIIVFLVCW+FAV+NRI+N   +FP   N+LHTYLSVSHGF+AS  FIYNNPLMWRY G+K + +FT FG   D  K+LE+NKNNNNPSPYSSSRG +  T   + + + ++ SS  + C+ +  P+  +N Q             DE     ++     + Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1013946227|gb|KYQ99906.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium lacteum]</Hit_def>
+  <Hit_accession>KYQ99906</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>1.25491e-156</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>ETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTV</Hsp_qseq>
+      <Hsp_hseq>RATYAVLLIADFTSIIGCMIVLIGFWRLKLLRNHVTKVISCFCLTSLCKDIPSTLLTLTQTAVDGGFPCYFYSIVITYGSLSCWLWTLCLAISIFRLIVKREPEPQRFEKWYFLSCWGLPLISTIIMLAKDTVEYIGNWCWIGNDYIVYRFVLFYVPFFIIFATSAVLVGITCHYTYQVIHNGVSDNKDRHVKYQFKLVNYIIVFLICWVFAVINRILNGLGYYPFIANILHTYLSVSHGFFASMVFVYNNPLMWRYFGAKIIKCFTFFGFCLETAKKLEKNKNNNNPSPYSSSRGGSNKT--GNSTSQT------------------GNNGATVDSSPGYDSSYELDSSSTIPYEYSTESGPTL</Hsp_hseq>
+      <Hsp_midline>  +  +LL ADF+S++GCM VLIGFWRLKLLRNHVTKVI+CFC TS CKD PST+LTLT TAV+GGFPCY Y+IVITYGS +CWLWTLCLAISI+ LIVKREPEP+RFEK+Y+L CWGLPLISTI+MLAK+TV+++GNWCWIG  +  YRF LFY PF  I+A SAVLVG+T  YTY VIHNGVSDNK++H+ YQFKL+NYIIVFL+CWVFAV+NRI+NGL  +P   NILHTYLSVSHGF+AS+ F+YNNPLMWRYFGAKI+  FTFFG+  +  KKLEKNKNNNNPSPYSSSRG S KT  G+ T                      NN   ++++ G   +Y  + SS+     S E   T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|45360220|gb|AAS59250.1|</Hit_id>
+  <Hit_def>cAMP receptor 1 [Dictyostelium minutum]</Hit_def>
+  <Hit_accession>AAS59250</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>4.99807e-156</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>ETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAV-NGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDV------QCSSDMEQCSLE-----RHPNMVNNQQNLNN</Hsp_qseq>
+      <Hsp_hseq>RATYAVLLIADFTSIIGCIIVLVGFWRLKLLRNHVTKVISCFCLTSICKDVPSTLLTLTQAAVYNRGFPCYFYSIVITYGSLSCWLWTLCLAISIFRLIVKREPEPQRYEKWYYLASWGLPIISTIIMLAKNTVDYVGNWCWIKPEYVVYRFMLFYVPFFIIFGTSAILVGITCHYTYQVIHNGVSDNKDRHVKYQFKLVNYIIVFLICWVFAVVNRIVNGLGYYPFATNLLHTYLSVSHGFFASMVFVYNNPLMWRYFGAKVIRCFTLFGFCTETAKRLEKNKNNNNPSPYSSSRGGSNKTGTSNHNGATIDSTPGYDSSYELDSSSIPYEYSIQSGNIPNNSENQNN</Hsp_hseq>
+      <Hsp_midline>  +  +LL ADF+S++GC+ VL+GFWRLKLLRNHVTKVI+CFC TS CKD PST+LTLT  AV N GFPCY Y+IVITYGS +CWLWTLCLAISI+ LIVKREPEP+R+EK+YYL  WGLP+ISTI+MLAKNTV +VGNWCWI   +  YRF LFY PF  I+  SA+LVG+T  YTY VIHNGVSDNK++H+ YQFKL+NYIIVFL+CWVFAVVNRIVNGL  +P A N+LHTYLSVSHGF+AS+ F+YNNPLMWRYFGAK++  FT FG+ T+  K+LEKNKNNNNPSPYSSSRG S KT   +  G  +        S +++  S+      +  N+ NN +N NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|193290461|gb|ACF17591.1|</Hit_id>
+  <Hit_def>cAMP receptor cAR [Dictyostelium aureostipes]</Hit_def>
+  <Hit_accession>ACF17591</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.129</Hsp_bit-score>
+      <Hsp_score>1154</Hsp_score>
+      <Hsp_evalue>2.01267e-153</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRG--TSGK</Hsp_qseq>
+      <Hsp_hseq>VVLLFADFTSIIGCFCVLVGFWRLKLLRNHITRIISCFCLTSFFKDLISCILTLTQSHRENDFSCYLFAIAINYGSLSCWLWTLCLAVSIYLLIVKRIQEAERLEKYYYLICWGLPLISTIIMLAKGLVERVVGWCWIGGQYTAYRFGIFYVPFFIIFATSAVLVGLTCQYTYNVIHNGVSDNKDRHITYQFKLVNYIIVFLVCWIFAVVNRIINSLNIFDYTCNMLHTYLSISHGFYASLVFIYNNPLMWRYFGAKILSLFTPFGFCLDRAKRLERNKNNNNPSPYSSSRGVFTSGQ</Hsp_hseq>
+      <Hsp_midline>V+LLFADF+S++GC  VL+GFWRLKLLRNH+T++I+CFC TSF KD  S ILTLT +     F CYL+AI I YGS +CWLWTLCLA+SIY+LIVKR  E ER EKYYYL+CWGLPLISTI+MLAK  V+ V  WCWIG  +T YRFG+FY PF  I+A SAVLVGLT +YTY VIHNGVSDNK++H+TYQFKL+NYIIVFLVCW+FAVVNRI+N LN+F    N+LHTYLS+SHGF+AS+ FIYNNPLMWRYFGAKIL++FT FG+  D  K+LE+NKNNNNPSPYSSSRG  TSG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|66806245|ref|XP_636845.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium discoideum AX4] &gt;gi|166214929|sp|P34907.2|CAR2_DICDI RecName: Full=Cyclic AMP receptor 2; Short=cAMP receptor 2 &gt;gi|60465226|gb|EAL63320.1| G-protein-coupled receptor [Dictyostelium discoideum AX4]</Hit_def>
+  <Hit_accession>XP_636845</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>7.44262e-153</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>LLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTL--TNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQ</Hsp_qseq>
+      <Hsp_hseq>ILLIADFSSIIGCSLVLIGFWRLKLLRNHITKIISLFCATSLFKDVISTIITLLYKPDQTESGFPCYLHAIVITFGSLACWLWTLMLSFSIYNLIVRREPEPERFEKFYFCLCYGLPLISTIVMLSTHIIQPVGGWCWIGDNYDGYRFGLFYGPFFFIWGTSAILVGLTSKYTYSVIRSSVSDNKDKHMTYQFKLINYIVVFLVCWVFAIVNRILNGLNQFPTVPNVLHTYFSVSHGFYASITFIYNNPLMWRYFGAKFLLIFSKFGLFVQAQQRLELNKNNNNPSPIMRSKNALDN--GADSSVVELPCLSKADSLSLDAENNIETPKE</Hsp_hseq>
+      <Hsp_midline>+LL ADFSS++GC  VLIGFWRLKLLRNH+TK+I+ FCATS  KD  STI+TL         GFPCYL+AIVIT+GS ACWLWTL L+ SIY LIV+REPEPERFEK+Y+ LC+GLPLISTIVML+ + +Q VG WCWIG ++ GYRFGLFYGPF FIW  SA+LVGLTS+YTY VI + VSDNK+KH+TYQFKLINYI+VFLVCWVFA+VNRI+NGLN FP   N+LHTY SVSHGF+AS+TFIYNNPLMWRYFGAK L +F+ FG F   Q++LE NKNNNNPSP   S+       G   +  ++ C S  +  SL+   N+   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|7322080|gb|AAB25436.2|</Hit_id>
+  <Hit_def>cAMP receptor subtype 2 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>AAB25436</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>1.63751e-151</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>LLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTL--TNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQ</Hsp_qseq>
+      <Hsp_hseq>ILLIADFSSIIGCSLVLIGFWRLKLLRNHITKIISLFCATSLFKDVISTIITLLYKPDQTESGFPCYLHAIVITFGSLALWLWTLMLSFSIYNLIVRREPEPERFEKFYFCLCYGLPLISTIVMLSTHIIQPVGGWCWIGDNYDGYRFGLFYGPFFFIWGTSAILVGLTSKYTYSVIRSSVSDNKDKHMTYQFKLINYIVVFLVCWVFAIVNRILNGLNQFPTVPNVLHTYFSVSHGFYASITFIYNNPLMWRYFGAKFLLIFSKFGLFVQAQQRLELNKNNNNPSPIMRSKNALDN--GADSSVVELPCLSKADSLSLDAENNIETPKE</Hsp_hseq>
+      <Hsp_midline>+LL ADFSS++GC  VLIGFWRLKLLRNH+TK+I+ FCATS  KD  STI+TL         GFPCYL+AIVIT+GS A WLWTL L+ SIY LIV+REPEPERFEK+Y+ LC+GLPLISTIVML+ + +Q VG WCWIG ++ GYRFGLFYGPF FIW  SA+LVGLTS+YTY VI + VSDNK+KH+TYQFKLINYI+VFLVCWVFA+VNRI+NGLN FP   N+LHTY SVSHGF+AS+TFIYNNPLMWRYFGAK L +F+ FG F   Q++LE NKNNNNPSP   S+       G   +  ++ C S  +  SL+   N+   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|66816419|ref|XP_642219.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium discoideum AX4] &gt;gi|543929|sp|P35352.1|CAR3_DICDI RecName: Full=Cyclic AMP receptor 3; Short=cAMP receptor 3 &gt;gi|476886|pir||A46391 cAMP receptor subtype 3 - slime mold (Dictyostelium sp.) &gt;gi|265734|gb|AAB25437.1| cAMP receptor subtype 3 [Dictyostelium] &gt;gi|60470107|gb|EAL68087.1| G-protein-coupled receptor [Dictyostelium discoideum AX4]</Hit_def>
+  <Hit_accession>XP_642219</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>3.51587e-151</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>NETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTL-TNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQ</Hsp_qseq>
+      <Hsp_hseq>NDASYAVLLIADFTSIIGCTLVLLGFWRLKLLRNHITKIITFFCSTSLAKDLISTILTLIEKKQSNGSFQCYLYATVITYGSLACWLWTLCLSFSIYNLIVKREPEPEKFEKYYHVFCWVVPFIMSVIMLSKGVIEVTGNWCWIGNTYVGYRFGLFYGPFLAIWFLAAVLVGLTSRYTYKVIRSSVSDNKDRHMTYQFKLINYIIVFLLCWVFAVINRIVNGLNMFPAWVSILHTYLSVSHGFYASVTFIYNNPLMWRYLASIILIPFTKFGYFVETQQRLEKNKNNNNHSPVGLSNNAQNNNHHHNHNNNHNNNHNNHNNNNNNNNSDFVNNDSSNYYTASMIESFSVQNENSKSINGADNFKQ</Hsp_hseq>
+      <Hsp_midline>N+ S  +LL ADF+S++GC  VL+GFWRLKLLRNH+TK+I  FC+TS  KD  STILTL      NG F CYLYA VITYGS ACWLWTLCL+ SIY LIVKREPEPE+FEKYY++ CW +P I +++ML+K  ++  GNWCWIG ++ GYRFGLFYGPFL IW ++AVLVGLTSRYTY VI + VSDNK++H+TYQFKLINYIIVFL+CWVFAV+NRIVNGLNMFP  ++ILHTYLSVSHGF+ASVTFIYNNPLMWRY  + IL  FT FGYF + Q++LEKNKNNNN SP   S          +   +     ++    +   + + VNN  +      + ++++ +  +S S++ +D  KQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1160553745|ref|XP_020436814.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Polysphondylium pallidum PN500] &gt;gi|9049274|dbj|BAA99285.1| cAMP receptor TasA [Polysphondylium pallidum] &gt;gi|281210535|gb|EFA84701.1| G-protein-coupled receptor [Polysphondylium pallidum PN500]</Hit_def>
+  <Hit_accession>XP_020436814</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>3.87072e-149</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>LLDGNPANETSLV--LLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSS</Hsp_qseq>
+      <Hsp_hseq>LVDPMTQIEIDLLYSVLLLADITSIIGTFIVLIGFWRLKLLRNHVTRVISCFCLTSFLKDLMSMTLTLTDSAQYGGFPCYLYSIVITYGSLSCWLWTLCLAISIYLMIVRRYPEPEKLERYYFFVCWGLPLISTIIMLSKDLVHFLGNWCWIGEQYTPYRFALFYVPFFIIFGVSAILVGLTCHYTYQVIHNGVSDNKDKHITYQFKLVNYIIVFLVCWIFAVINRILNAIGLFPYACNLLHTYLSLSHGFYASVAFIYNNPLMWRFIGSKFIRLFTIFGFCVETAKRLEKNKNNNNPSPYSSSRGPTITKLSNN-SGIEMESSS</Hsp_hseq>
+      <Hsp_midline>L+D     E  L+  +LL AD +S++G   VLIGFWRLKLLRNHVT+VI+CFC TSF KD  S  LTLT++A  GGFPCYLY+IVITYGS +CWLWTLCLAISIY++IV+R PEPE+ E+YY+ +CWGLPLISTI+ML+K+ V F+GNWCWIG  +T YRF LFY PF  I+ +SA+LVGLT  YTY VIHNGVSDNK+KH+TYQFKL+NYIIVFLVCW+FAV+NRI+N + +FP A N+LHTYLS+SHGF+ASV FIYNNPLMWR+ G+K + +FT FG+  +  K+LEKNKNNNNPSPYSSSRG +   +  + +G +++ SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|66816413|ref|XP_642216.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium discoideum AX4] &gt;gi|166201915|sp|Q9TX43.2|CAR4_DICDI RecName: Full=Cyclic AMP receptor 4; Short=cAMP receptor 4 &gt;gi|60470108|gb|EAL68088.1| G-protein-coupled receptor [Dictyostelium discoideum AX4]</Hit_def>
+  <Hit_accession>XP_642216</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.94796e-147</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>LLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLT----NTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNN</Hsp_qseq>
+      <Hsp_hseq>ILVIADFSSIFGCLLVLIAFKKLKLLRNHITRVIACFCVSSLLKDIISTGLTLSLGPQNEAGSTSFQCYLYAITITYGSLACWLWTLCLAFSIYNLIVKREPEPEKYEKFYHGVCWTIPLICVIVMLAKKTIEPVGNWCWISEKYVGYRFGLFYGPFFAIWIISAVLVGLTSRYTYSVIRNSVSDNKDKHMTYQFKLINYIIVFLLCWVFAIVNRILNGLGYYPTLPNILHTYFSVSHGFFASVTFIYNNPLMWRYWGSKIFLIFAKFGYFVELQRRLDRNKNNNNPSPILNSYAAT------------VYHSSTIESLSLQHNNDISND</Hsp_hseq>
+      <Hsp_midline>+L+ ADFSS+ GC+ VLI F +LKLLRNH+T+VIACFC +S  KD  ST LTL+    N A +  F CYLYAI ITYGS ACWLWTLCLA SIY LIVKREPEPE++EK+Y+ +CW +PLI  IVMLAK T++ VGNWCWI   + GYRFGLFYGPF  IW ISAVLVGLTSRYTY VI N VSDNK+KH+TYQFKLINYIIVFL+CWVFA+VNRI+NGL  +P   NILHTY SVSHGF+ASVTFIYNNPLMWRY+G+KI  +F  FGYF ++Q++L++NKNNNNPSP  +S   +            V  SS +E  SL+ + ++ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|765296|gb|AAB32419.1|</Hit_id>
+  <Hit_def>CAR4=cell-surface G protein-linked cAMP receptor [Dictyostelium discoideum=slime mold, NC-4, Peptide, 443 aa]</Hit_def>
+  <Hit_accession>AAB32419</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>5.85957e-147</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>LLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLT----NTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQ</Hsp_qseq>
+      <Hsp_hseq>ILVIADFSSIFGCLLVLIAFKKLKLLRNHITRVIACFCVSSLLKDIISTGLTLSLGPQNEAGSTSFQCYLYAITITYGSLACWLWTLCLAFSIYNLIVKREPEPEKYEKIYHGVCWTIPLICVIVMLAKKTIEPVGNWCWISEKYVGYRFGYIYGPFFAIWIISAVLVGLTSRYTYSVIRNSVSDNKDKHMTYQFKLINYIIVFLLCWVFAIVNRILNGLGYYPTLPNILHTYFSVSHGFFASVTFIYNNPLMWRYWGSKIFLIFAKFGYFVELQRRLDRNKNNNNPSPILNSYAAT------------VYHSSTIESLSLQHHNNDISND</Hsp_hseq>
+      <Hsp_midline>+L+ ADFSS+ GC+ VLI F +LKLLRNH+T+VIACFC +S  KD  ST LTL+    N A +  F CYLYAI ITYGS ACWLWTLCLA SIY LIVKREPEPE++EK Y+ +CW +PLI  IVMLAK T++ VGNWCWI   + GYRFG  YGPF  IW ISAVLVGLTSRYTY VI N VSDNK+KH+TYQFKLINYIIVFL+CWVFA+VNRI+NGL  +P   NILHTY SVSHGF+ASVTFIYNNPLMWRY+G+KI  +F  FGYF ++Q++L++NKNNNNPSP  +S   +            V  SS +E  SL+ H N ++N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|831760784|ref|XP_012750059.1|</Hit_id>
+  <Hit_def>hypothetical protein SAMD00019534_103540 [Acytostelium subglobosum LB1] &gt;gi|735850691|dbj|GAM27179.1| hypothetical protein SAMD00019534_103540 [Acytostelium subglobosum LB1]</Hit_def>
+  <Hit_accession>XP_012750059</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>3.32667e-141</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGT---SGKTMGGHPTGDDVQCSSD</Hsp_qseq>
+      <Hsp_hseq>VVLLFADVTSIIGAFSVLVAFWRLKLLRNHVTRVISCFCITSFIKDLIAFILTLTKASETNSFSCYLYAIVITYGSLSCWLWTLCLAISIYLLIVKRYQEIEKLEKYYFFACWGLPIISTVTMLAENTVEFVGSWCWIGTEYTGYRFGLFYGPFLLIFLLAAILVGMTCHYTYQVIHKGVSENKDKHMSYQFKLVNYIFVFLICWIFAVINRILNSLGSYPYAINLLHTYFSVSHGFYASVVFVYNNPLLWRYIGAKVLKVFTVFGFCLETAQVLEKNKNNNNPSPYSSSRGAAKNSGNNNGMFSGEEDGDCAND</Hsp_hseq>
+      <Hsp_midline>V+LLFAD +S++G  +VL+ FWRLKLLRNHVT+VI+CFC TSF KD  + ILTLT  +    F CYLYAIVITYGS +CWLWTLCLAISIY+LIVKR  E E+ EKYY+  CWGLP+IST+ MLA+NTV+FVG+WCWIG  +TGYRFGLFYGPFL I+ ++A+LVG+T  YTY VIH GVS+NK+KH++YQFKL+NYI VFL+CW+FAV+NRI+N L  +P A+N+LHTY SVSHGF+ASV F+YNNPL+WRY GAK+L VFT FG+  +  + LEKNKNNNNPSPYSSSRG    SG   G     +D  C++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|831759896|ref|XP_012749784.1|</Hit_id>
+  <Hit_def>hypothetical protein SAMD00019534_104920, partial [Acytostelium subglobosum LB1] &gt;gi|735850416|dbj|GAM27317.1| hypothetical protein SAMD00019534_104920, partial [Acytostelium subglobosum LB1]</Hit_def>
+  <Hit_accession>XP_012749784</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>5.58475e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>NPANETSL----VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGK</Hsp_qseq>
+      <Hsp_hseq>DPAAEVQIEVLYIVLVFADITSILGALTVLISFWRLKLLRNHVTRIISYFCITSFIKDSIGLILTLTGASSFNSFSCILYSIVITYGSLSCWLWTLCLAISIYLLIVKRYQEAEKLEKYYFFVCWGIPIAPTVVMLAKDTVEYLGSWCWIGDDYSNYRFGLFYIPFFVIFALSAILVGLTMRYTYQVIHQGVSENKDKHGTYQFKLVNYIIVFLICWIFAVVNRILNSLGHYPYAINLLHTYFSVSHGFYASCVFVYNNPLLWRYIAARVLGMFALCGCCVERFKRLDRNKNNNNQSPYSSSRGANNK</Hsp_hseq>
+      <Hsp_midline>+PA E  +    ++L+FAD +S+LG + VLI FWRLKLLRNHVT++I+ FC TSF KD    ILTLT  +    F C LY+IVITYGS +CWLWTLCLAISIY+LIVKR  E E+ EKYY+ +CWG+P+  T+VMLAK+TV+++G+WCWIG  ++ YRFGLFY PF  I+A+SA+LVGLT RYTY VIH GVS+NK+KH TYQFKL+NYIIVFL+CW+FAVVNRI+N L  +P A+N+LHTY SVSHGF+AS  F+YNNPL+WRY  A++L +F   G   +  K+L++NKNNNN SPYSSSRG + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|831762989|ref|XP_012750731.1|</Hit_id>
+  <Hit_def>hypothetical protein SAMD00019534_093520, partial [Acytostelium subglobosum LB1] &gt;gi|735851363|dbj|GAM26177.1| hypothetical protein SAMD00019534_093520, partial [Acytostelium subglobosum LB1]</Hit_def>
+  <Hit_accession>XP_012750731</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.555</Hsp_bit-score>
+      <Hsp_score>963</Hsp_score>
+      <Hsp_evalue>1.63146e-125</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>LLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAK-NTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKE-KHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPS------PYSSSR--GTSGKTMG-GHPTGDDVQCSS--------DMEQCSLE-RHPNMVNNQQNLNNNYGLQQNYND</Hsp_qseq>
+      <Hsp_hseq>LLLTADFTSIIGCITVLVGFWRLRLMRNHITRVIAYFCVTSAIKDIVAVTLTLSKAYLNSKFACYLYAVDITFGSFSCWMWTLCLAISIYIVIVQIHVVPDRFEKYYMIVSWGLPLISCIIMVSTPNLVSNVGSWCWIGAKYPGYRFGLFYIPFFVIFAAAAIMVGLTSHYTYKVLTSGISKTVESKHGAYQFKLINYIIVFLICWVFAVVNRILNAFNLYPYATNLLHTYLSVSHGFYASLVFIYNNPMMWRYFGAKLLFPLTLLGLFQETYRTLEKNKYNNNSSLQGATPKYMSQKTCQTSGGSLDHSHQSQGLSQGQSGFESGIRLDTEEMSLEMSQISIVSHGNSSTDNLGSNSSAND</Hsp_hseq>
+      <Hsp_midline>LLL ADF+S++GC+ VL+GFWRL+L+RNH+T+VIA FC TS  KD  +  LTL+   +N  F CYLYA+ IT+GSF+CW+WTLCLAISIY++IV+    P+RFEKYY ++ WGLPLIS I+M++  N V  VG+WCWIG  + GYRFGLFY PF  I+A +A++VGLTS YTY V+ +G+S   E KH  YQFKLINYIIVFL+CWVFAVVNRI+N  N++P A N+LHTYLSVSHGF+AS+ FIYNNP+MWRYFGAK+L   T  G F +  + LEKNK NNN S       Y S +   TSG ++   H +    Q  S        D E+ SLE    ++V++  +  +N G   + ND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|470248746|ref|XP_004357916.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium fasciculatum] &gt;gi|328871251|gb|EGG19622.1| G-protein-coupled receptor [Dictyostelium fasciculatum]</Hit_def>
+  <Hit_accession>XP_004357916</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>1.55948e-117</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>NETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVN-GGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNG-VSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGK</Hsp_qseq>
+      <Hsp_hseq>NRLIYALLLLADFSSLIGCAVVLLGFWKLKLLRNHITKIISCFCATSFLKDIIATSLTLEGTAFKTKKWACYLYAASINFGSFSCWMWTLCLALSIYLLISRVQINQRKFEIIYMVVSWGLPAISTIIMLSTNIVSNVGSWCWIGTKFVYFRFGLFYIPFFVIFGAAAILVGLTSHYTYVVMHNSKFVRNENHHAVYQFKLVNYIIVFLICWVFAVVNRILNAVNLNIYATNVLHTYLSVSHGFYASLVFIYNNPIMWRFFCSKVLAVCVFFGFGHKLYDHYRKNIDHNNDTSNGSKTGQGRK</Hsp_hseq>
+      <Hsp_midline>N     LLL ADFSS++GC  VL+GFW+LKLLRNH+TK+I+CFCATSF KD  +T LTL  TA     + CYLYA  I +GSF+CW+WTLCLA+SIY+LI + +    +FE  Y ++ WGLP ISTI+ML+ N V  VG+WCWIG  F  +RFGLFY PF  I+  +A+LVGLTS YTYVV+HN     N+  H  YQFKL+NYIIVFL+CWVFAVVNRI+N +N+   A N+LHTYLSVSHGF+AS+ FIYNNP+MWR+F +K+L V  FFG+   +     KN ++NN +   S  G   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|470252552|ref|XP_004359373.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium fasciculatum] &gt;gi|328873156|gb|EGG21523.1| G-protein-coupled receptor [Dictyostelium fasciculatum]</Hit_def>
+  <Hit_accession>XP_004359373</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.50361e-112</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>NETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKN-TVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIH-NGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTD</Hsp_qseq>
+      <Hsp_hseq>NDALYGMLLLADFSSIVGCLTVLLGFWRLKLLRNHITRVIACFCVTSAIKDFVAVTLTLSKSYATNKFACYVYAVDITFGSFSCWMWTLCLALSIYLVLVRTHHEPERLEKFYMIASWGLPLISCIIMVSVDGLVMNVGSWCWIGQQYQGYRFGLFYIPMFIIYAGAVLLTGLTMYYTYTVIYKNEQSTKKAEHRKYQFKLVNYIVVFLVCWIFAVINRILNAYNLNIYATNLLHTYLSISHGFYASLVFIYNNPVMWRYFVSKVLYPFKLLGLFTE</Hsp_hseq>
+      <Hsp_midline>N+    +LL ADFSS++GC+ VL+GFWRLKLLRNH+T+VIACFC TS  KDF +  LTL+ +     F CY+YA+ IT+GSF+CW+WTLCLA+SIY+++V+   EPER EK+Y +  WGLPLIS I+M++ +  V  VG+WCWIG  + GYRFGLFY P   I+A + +L GLT  YTY VI+ N  S  K +H  YQFKL+NYI+VFLVCW+FAV+NRI+N  N+   A N+LHTYLS+SHGF+AS+ FIYNNP+MWRYF +K+L  F   G FT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|470249297|ref|XP_004366880.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor [Dictyostelium fasciculatum] &gt;gi|328871527|gb|EGG19897.1| G-protein-coupled receptor [Dictyostelium fasciculatum]</Hit_def>
+  <Hit_accession>XP_004366880</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>3.81769e-103</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTG</Hsp_qseq>
+      <Hsp_hseq>ISIYLLIVKRFQDPERLEKYYYGICWGLPMISTIIMLAKNLVEPVVGWCWIGGDYTAYRFGIFYVPFFIIFATSAVLVGLTCQYTYKVIHNGVSDNKERHIKYQFKLVNYIIVFLVCWIFAVINRIINSLDIFDYTCNMLHTYLSISHGFYASIVFIYNNPLMWRYFGAKILGLFTPFGFCVERAKQLDRNKNNNNPSPYSSSRGVLASNKSGGAGG</Hsp_hseq>
+      <Hsp_midline>ISIY+LIVKR  +PER EKYYY +CWGLP+ISTI+MLAKN V+ V  WCWIG  +T YRFG+FY PF  I+A SAVLVGLT +YTY VIHNGVSDNKE+H+ YQFKL+NYIIVFLVCW+FAV+NRI+N L++F    N+LHTYLS+SHGF+AS+ FIYNNPLMWRYFGAKIL +FT FG+  +  K+L++NKNNNNPSPYSSSRG       G   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|56718368|gb|AAW24476.1|</Hit_id>
+  <Hit_def>cAMP receptor 1, partial [Dictyostelium rosarium]</Hit_def>
+  <Hit_accession>AAW24476</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>4.86626e-100</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>LCLAISIYMLIVRREPEPERFEKYYYILCWGLPLISTIVMLAKNTVSFNGVWCWIGADYNGYRFGLFYGPFLFIWAISAILVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWMFAVVNRIINGVGIIDPTINILHTYLSVSHGFWASVTFIYN</Hsp_hseq>
+      <Hsp_midline>LCLAISIYMLIV+REPEPERFEKYYY+LCWGLPLISTIVMLAKNTV F G WCWIG  + GYRFGLFYGPFLFIWAISA+LVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCW+FAVVNRI+NG+ +  P +NILHTYLSVSHGFWASVTFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|56718370|gb|AAW24477.1|</Hit_id>
+  <Hit_def>cAMP receptor 2, partial [Dictyostelium rosarium]</Hit_def>
+  <Hit_accession>AAW24477</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.66337e-80</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>LMLSFSIYNLIVRREPEPERFEKYYFCLCYGLPLISTIIMLSKHIISPMGGWCWIGDNYDAYRFALFYGPFFFIWGTSAILVGLTSKYTYSVIRSSVSDNKDKHMTYQFKLINYIVVFLICWVFAIVNRILNGLNKYPTVPNILHTYFSVSHGFFASITFIYN</Hsp_hseq>
+      <Hsp_midline>L L+ SIY LIV+REPEPERFEKYY+ LC+GLPLISTI+ML+K+ +  +G WCWIG ++  YRF LFYGPF FIW  SA+LVGLTS+YTY VI + VSDNK+KH+TYQFKLINYI+VFL+CWVFA+VNRI+NGLN +P   NILHTY SVSHGF+AS+TFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|45360223|gb|AAS59252.1|</Hit_id>
+  <Hit_def>cAMP receptor, partial [Dictyostelium fasciculatum]</Hit_def>
+  <Hit_accession>AAS59252</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>2.20607e-78</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>LCLAISIYLLIVKRFQDPERLEKYYYGICWGLPMVSTIIMLARNLVEPVVGWCWIGNDYTAYRFGIFYVPFFIIFATSAVLVGLTCQYTYKVIHYGVSDNKERHIKYQFKLINYIIVFLVCWIFAVVNRIINSLNIFDYTCNMLHTYLSISHGFYASIVFIYN</Hsp_hseq>
+      <Hsp_midline>LCLAISIY+LIVKR  +PER EKYYY +CWGLP++STI+MLA+N V+ V  WCWIG  +T YRFG+FY PF  I+A SAVLVGLT +YTY VIH GVSDNKE+H+ YQFKLINYIIVFLVCW+FAVVNRI+N LN+F    N+LHTYLS+SHGF+AS+ FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|193290429|gb|ACF17575.1|</Hit_id>
+  <Hit_def>cAMP receptor 1, partial [Dictyostelium mucoroides]</Hit_def>
+  <Hit_accession>ACF17575</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>2.35298e-58</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GGDYNGYRFGLFYGPFLFIWAISAILVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWMFAVVNRITNGVGIQDPTINILHTYLSVSHGFWASVTFIYN</Hsp_hseq>
+      <Hsp_midline>G  + GYRFGLFYGPFLFIWAISA+LVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCW+FAVVNRI NG+ +  P +NILHTYLSVSHGFWASVTFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|193290431|gb|ACF17576.1|</Hit_id>
+  <Hit_def>cAMP receptor 2, partial [Dictyostelium mucoroides] &gt;gi|193290433|gb|ACF17577.1| cAMP receptor 3, partial [Dictyostelium mucoroides]</Hit_def>
+  <Hit_accession>ACF17576</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>2.99178e-51</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GDNYDGYRFGLFYGPFFFIWGTSAILVGLTSKYTYSVIRSSVSDNKDKHMTYQFKLINYIVVFLICWVFAIVNRILNGLNQFPTVPNVLHTYFSVSHGFYASITFIYN</Hsp_hseq>
+      <Hsp_midline>G ++ GYRFGLFYGPF FIW  SA+LVGLTS+YTY VI + VSDNK+KH+TYQFKLINYI+VFL+CWVFA+VNRI+NGLN FP   N+LHTY SVSHGF+AS+TFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|193290425|gb|ACF17573.1|</Hit_id>
+  <Hit_def>cAMP receptor 3, partial [Dictyostelium rosarium]</Hit_def>
+  <Hit_accession>ACF17573</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>8.95097e-51</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>SFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>KYISYRFGLFYGPFLIIWFLAAVLVGLTSRYTYKVIRSSVSDNKDKHMTYQFKLINYIVIFLICWVFAVINRVVNGLGYYPIALNILHSYLSISHGFYASVTFIYN</Hsp_hseq>
+      <Hsp_midline> +  YRFGLFYGPFL IW ++AVLVGLTSRYTY VI + VSDNK+KH+TYQFKLINYI++FL+CWVFAV+NR+VNGL  +P ALNILH+YLS+SHGF+ASVTFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|193290435|gb|ACF17578.1|</Hit_id>
+  <Hit_def>cAMP receptor 4, partial [Dictyostelium mucoroides]</Hit_def>
+  <Hit_accession>ACF17578</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>4.45685e-49</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>AYRFGLFYGPFFAIWLFAAVLVGLTSRYTYSVIRNSVSDNKDKHMTYQFKLINYIIVFLLCWVFAIVNRILNGLGYYPTAPNILHTYFSVSHGFFASVTFIYN</Hsp_hseq>
+      <Hsp_midline> YRFGLFYGPF  IW  +AVLVGLTSRYTY VI N VSDNK+KH+TYQFKLINYIIVFL+CWVFA+VNRI+NGL  +P A NILHTY SVSHGF+ASVTFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|193290447|gb|ACF17584.1|</Hit_id>
+  <Hit_def>cAMP receptor TasB, partial [Polysphondylium pseudocandidum]</Hit_def>
+  <Hit_accession>ACF17584</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.93753e-48</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GEQYTGYRFGLFYVPFFIIFAVSAILVGLTCHYTYQVIHKGVSDNKDKHITYQFKLVNYIIVFLVCWIFAVINRILNAFGLFPFVCNLLHTYLSVSHGFYASVIFIYN</Hsp_hseq>
+      <Hsp_midline>G  +TGYRFGLFY PF  I+A+SA+LVGLT  YTY VIH GVSDNK+KH+TYQFKL+NYIIVFLVCW+FAV+NRI+N   +FP   N+LHTYLSVSHGF+ASV FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|193290427|gb|ACF17574.1|</Hit_id>
+  <Hit_def>cAMP receptor 4, partial [Dictyostelium rosarium]</Hit_def>
+  <Hit_accession>ACF17574</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>5.08564e-48</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>AYRFGLFYGPFFAIWLLAAVLVGLTSRYTYSVIRNSVSDNKDKHMTYQFKLINYIIVFLLCWVFAIVNRVLNGLGYYPTVPNMLHTYFSVSHGFFASVTFIYN</Hsp_hseq>
+      <Hsp_midline> YRFGLFYGPF  IW ++AVLVGLTSRYTY VI N VSDNK+KH+TYQFKLINYIIVFL+CWVFA+VNR++NGL  +P   N+LHTY SVSHGF+ASVTFIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|193290449|gb|ACF17585.1|</Hit_id>
+  <Hit_def>cAMP receptor TasA, partial [Dictyostelium gloeosporum]</Hit_def>
+  <Hit_accession>ACF17585</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>7.16681e-48</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GEQFTAYRFALFYIPFFIIFAVSAILVALTCHYTYQVIHNGVSDNKDKHTTYQFKLVNYIIVFLVCWIFAVINRILNAVGLFPYACNLLHTYLSLSHGFYASVAFIYN</Hsp_hseq>
+      <Hsp_midline>G  FT YRF LFY PF  I+A+SA+LV LT  YTY VIHNGVSDNK+KH TYQFKL+NYIIVFLVCW+FAV+NRI+N + +FP A N+LHTYLS+SHGF+ASV FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|193290441|gb|ACF17581.1|</Hit_id>
+  <Hit_def>cAMP receptor, partial [Dictyostelium bifurcatum]</Hit_def>
+  <Hit_accession>ACF17581</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>2.88653e-47</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GGQYTAYRFGIFYAPFFVIFATSAVLVGLTCHYTYKVIHNGVSDNKDRHIKYQFKLVNYIIVFLVCWIFAVVNRIINSLNIFDYTCNMLHTYLSISHGFYASIVFIYN</Hsp_hseq>
+      <Hsp_midline>G  +T YRFG+FY PF  I+A SAVLVGLT  YTY VIHNGVSDNK++H+ YQFKL+NYIIVFLVCW+FAVVNRI+N LN+F    N+LHTYLS+SHGF+AS+ FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|193290445|gb|ACF17583.1|</Hit_id>
+  <Hit_def>cAMP receptor TasA, partial [Polysphondylium pseudocandidum] &gt;gi|193290451|gb|ACF17586.1| cAMP receptor TasB, partial [Dictyostelium gloeosporum]</Hit_def>
+  <Hit_accession>ACF17583</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>9.378e-47</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>SFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>QYTAYRFGLFYVPFFIIFGVSAILVGLTCHYTYLVIHKGVSDNKDRHITYQFKLVNYIIVFLVCWIFAVINRILNAAGLFPYSCNLLHTYLSISHGFYASVVFIYN</Hsp_hseq>
+      <Hsp_midline> +T YRFGLFY PF  I+ +SA+LVGLT  YTY+VIH GVSDNK++H+TYQFKL+NYIIVFLVCW+FAV+NRI+N   +FP + N+LHTYLS+SHGF+ASV FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|193290457|gb|ACF17589.1|</Hit_id>
+  <Hit_def>cAMP receptor cARG, partial [Acytostelium subglobosum]</Hit_def>
+  <Hit_accession>ACF17589</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>4.05671e-45</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GDDYSNYRFGLFYIPFFVIFALSAILVGLTMRYTYQVIHQGVSENKDKHGTYQFKLVNYIIVFLICWIFAVVNRILNSLGHYPYAINLLHTYFSVSHGFYASCVFVYN</Hsp_hseq>
+      <Hsp_midline>G  ++ YRFGLFY PF  I+A+SA+LVGLT RYTY VIH GVS+NK+KH TYQFKL+NYIIVFL+CW+FAVVNRI+N L  +P A+N+LHTY SVSHGF+AS  F+YN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|193290437|gb|ACF17579.1|</Hit_id>
+  <Hit_def>cAMP receptor, partial [Polysphondylium violaceum]</Hit_def>
+  <Hit_accession>ACF17579</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>2.9075e-43</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>AYRFVLFYVPFFIIFFVSAILVGITMRYTYNVIHNGVSDNRDKHFTYQFKLVNYIIVFLVCWLFAVINRILNSIGLYPTVPNILHTYLSVSHGFFASCAFIYN</Hsp_hseq>
+      <Hsp_midline> YRF LFY PF  I+ +SA+LVG+T RYTY VIHNGVSDN++KH TYQFKL+NYIIVFLVCW+FAV+NRI+N + ++P   NILHTYLSVSHGF+AS  FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|193290439|gb|ACF17580.1|</Hit_id>
+  <Hit_def>cAMP receptor, partial [Dictyostelium rhizopodium]</Hit_def>
+  <Hit_accession>ACF17580</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>2.09796e-42</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GNEYVTYRFLLFYVPFFIIFGTSAILCGITCHYTYQVIHNGVSDNKDKHIKYQFKLVNYIIVFLCCWVFAVVNRIINGIGYTPFATNLLHTYLSVSHGFYASIAFIYN</Hsp_hseq>
+      <Hsp_midline>G  +  YRF LFY PF  I+  SA+L G+T  YTY VIHNGVSDNK+KH+ YQFKL+NYIIVFL CWVFAVVNRI+NG+   P A N+LHTYLSVSHGF+AS+ FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|193290443|gb|ACF17582.1|</Hit_id>
+  <Hit_def>cAMP receptor, partial [Acytostelium anastomosans]</Hit_def>
+  <Hit_accession>ACF17582</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>3.53804e-42</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GANYQAYRFGLFYIPFFFIFAAAVIIVALTSRYTYQVLHSGVSNMLDRHAKYQFKLINYIVVFLICWVFAVVNRILNAFNIYPYATNLLHTYLSISHGFFASIVFIIN</Hsp_hseq>
+      <Hsp_midline>G ++  YRFGLFY PF FI+A + ++V LTSRYTY V+H+GVS+  ++H  YQFKLINYI+VFL+CWVFAVVNRI+N  N++P A N+LHTYLS+SHGF+AS+ FI N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|193290453|gb|ACF17587.1|</Hit_id>
+  <Hit_def>cAMP receptor E, partial [Acytostelium subglobosum]</Hit_def>
+  <Hit_accession>ACF17587</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.38548e-41</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKE-KHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GAKYPGYRFGLFYIPFFVIFAAAAIMVGLTSHYTYKVLTSGISKTVESKHGAYQFKLINYIIVFLICWVFAVVNRILNAFNLYPYATNLLHTYLSVSHGFYASLVFIYN</Hsp_hseq>
+      <Hsp_midline>G  + GYRFGLFY PF  I+A +A++VGLTS YTY V+ +G+S   E KH  YQFKLINYIIVFL+CWVFAVVNRI+N  N++P A N+LHTYLSVSHGF+AS+ FIYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|193290455|gb|ACF17588.1|</Hit_id>
+  <Hit_def>cAMP receptor cARF, partial [Acytostelium subglobosum]</Hit_def>
+  <Hit_accession>ACF17588</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.47352e-40</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYN</Hsp_qseq>
+      <Hsp_hseq>GTEYTGYRFGLFYGPFLLIFLLAAILVGMTCHYTHQVIHKGVSENKDKHMSYQFKLVNYIFVFLICWIFAVINRILNSLGSYPYAINLLHTYFSVSHGFYASVVFVYN</Hsp_hseq>
+      <Hsp_midline>G  +TGYRFGLFYGPFL I+ ++A+LVG+T  YT+ VIH GVS+NK+KH++YQFKL+NYI VFL+CW+FAV+NRI+N L  +P A+N+LHTY SVSHGF+ASV F+YN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1160564631|ref|XP_020429294.1|</Hit_id>
+  <Hit_def>hypothetical protein PPL_12373 [Polysphondylium pallidum PN500] &gt;gi|281202964|gb|EFA77165.1| hypothetical protein PPL_12373 [Polysphondylium pallidum PN500]</Hit_def>
+  <Hit_accession>XP_020429294</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>4.50002e-34</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLA</Hsp_qseq>
+      <Hsp_hseq>AILLIADVTSIIGAFIVLIGFWRLKLLRNHVTRVISCFCITSFCKDLTAMTLTITNSAQYGGFPCYLYSIVITYGSLSCWLWTLCLG</Hsp_hseq>
+      <Hsp_midline> +LL AD +S++G   VLIGFWRLKLLRNHVT+VI+CFC TSFCKD  +  LT+TN+A  GGFPCYLY+IVITYGS +CWLWTLCL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1183362540|gb|ORX89514.1|</Hit_id>
+  <Hit_def>hypothetical protein K493DRAFT_305699 [Basidiobolus meristosporus CBS 931.73]</Hit_def>
+  <Hit_accession>ORX89514</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>2.88402e-17</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRL--KLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGG-------------FPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREP---EPERFEKYYYLLCWGLPLISTIVMLAK-NTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLIN----YIIVFLVCWVFAVVNRIVNGLN--MFPPALNILHTYLSVSHGFWASVTFIYNNPL</Hsp_qseq>
+      <Hsp_hseq>SLMGCAFVILNYHLIYRRFLVNAPNNIIAHHRSLFF--------LSIINVFLNGGGLMYQNLDWKGTRTICVLQALHITYFNAANWFWGICICVNIYTILLPPEKFLFMRKKIMTKFTIFALGLPSILMLPLITNLDEIGPVGGWCWIKPAAGGLRIGTFYGWLLLSFVMYIILLVATLYQVSVLRKNPWEQKRKSRHPYE-KLLNRYVLYVLIFFICWTPGAVNRIIQLSNPGFYSFVLDAMHTYLSISESFWLSLVFGFTTSL</Hsp_hseq>
+      <Hsp_midline>S++GC  V++ +  +  + L N    +IA   +  F        L++ N  +NGG               C L A+ ITY + A W W +C+ ++IY +++  E      ++    + +   GLP I  + ++   + +  VG WCWI  +  G R G FYG  L  + +  +L+  T     V+  N     ++    Y+ KL+N    Y+++F +CW    VNRI+   N   +   L+ +HTYLS+S  FW S+ F +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|167526329|ref|XP_001747498.1|</Hit_id>
+  <Hit_def>hypothetical protein [Monosiga brevicollis MX1] &gt;gi|163773944|gb|EDQ87578.1| predicted protein [Monosiga brevicollis MX1]</Hit_def>
+  <Hit_accession>XP_001747498</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>2.68867e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>ANE----TSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSR---YTYVVIHNGVSDNKEKH---LTYQFK-LINYIIVFLVCWVFAVVNRIVNGLN</Hsp_qseq>
+      <Hsp_hseq>ANENDCRTIVALRITAASMSLLGCLVILFSIWLFQRYRNFAQRLIMFLTGAALLDCFPYF---QASEHPRDDMICAAQAVWMTYTDWSVILWICVITYNVYANLVHKQ-DTTRLERWYHLLAWGFPVIPTAIPLLMGAYGPAGAWCWIKPEHVALRFGIWYCPMIILIVGVAVTYGIIRRQVKRSLTVWQGTYSPNLEEDRDILRRQVQPLLIYPAVYLLLSIFAIVNRVQNAVD</Hsp_hseq>
+      <Hsp_midline>ANE    T + L + A   S+LGC+ +L   W  +  RN   ++I      +    FP       +        C   A+ +TY  ++  LW   +  ++Y  +V ++ +  R E++Y+LL WG P+I T + L        G WCWI       RFG++Y P + +    AV  G+  R    +  V     S N E+    L  Q + L+ Y  V+L+  +FA+VNR+ N ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1229161799|ref|XP_022093839.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X1 [Acanthaster planci]</Hit_def>
+  <Hit_accession>XP_022093839</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>5.0169e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>LLDGNPANETSLVLLLFADFS-SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVI-------------HNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVF-TFFGYFTDVQKKLEKNKNNNNPSP</Hsp_qseq>
+      <Hsp_hseq>LFDGDEAKCDAVVGVKKAMASLSLIGCLFMIGVIW---LFKKHVVFVQRLILYLTIAAFFDSTAYLMANVQPDGPL-CDFEAFWLSFWDWAVLLWVTCLTVNLFLITVKMI-RMDRYEILYHAICWTVALVISLLPLIGDNYGPAGAWCWIKEESTAWRFFTWYGP-LFI-----IIIAMFILYSYIIFILNKKVKSWQGTYEPEIERNRQILKAEIRPLQAYPFIYLALSVFPLINRIQNAANPGNPIFALVILHALTSPLQGLVNAVVYGLDRETRSRLSWTQIKVSFLSRFTRETQIKEYPLPEKADHPPAP</Hsp_hseq>
+      <Hsp_midline>L DG+ A   ++V +  A  S S++GC+ ++   W   L + HV  V       +    F ST   + N   +G   C   A  +++  +A  LW  CL ++++++ VK     +R+E  Y+ +CW + L+ +++ L  +     G WCWI    T +RF  +YGP LFI     +++ +   Y+Y++                 +  N++        L  Y  ++L   VF ++NRI N  N   P  AL ILH   S   G   +V +  +     R    +I   F + F   T +++     K ++ P+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|765155312|ref|XP_011487624.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X1 [Oryzias latipes]</Hit_def>
+  <Hit_accession>XP_011487624</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>5.26813e-15</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYQSLAQKMILCLTVAAF---FDSVAYVMGETHPEGFF-CDFQAWWVTYFDWSALAWVCLITLNLYLNLV-REMSTNRYEMFYHLLAWGTPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+  ++   K+I C    +F   F S    +  T   G F C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+LL WG PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1174672484|ref|XP_020568496.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X2 [Oryzias latipes]</Hit_def>
+  <Hit_accession>XP_020568496</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>6.37494e-15</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYQSLAQKMILCLTVAAF---FDSVAYVMGETHPEGFF-CDFQAWWVTYFDWSALAWVCLITLNLYLNLV-REMSTNRYEMFYHLLAWGTPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+  ++   K+I C    +F   F S    +  T   G F C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+LL WG PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|831527890|ref|XP_012719922.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X1 [Fundulus heteroclitus]</Hit_def>
+  <Hit_accession>XP_012719922</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.22533e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLLGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSAAYVMGETHPEGSL-CDFQAWWLTYFDWCALAWVCLITLNLYLNLV-REMSTERFEKFYHLVAWGVPLVMASLPLLKGYYGPAGAWCWITDGHVAWRFGIWYVPLFGLIFIMICCYARIICVANNRMQSWRGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLVNRLHNASYPKDPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+LGC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  +    W   + +++Y+ +V RE   ERFEK+Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     F+ I   + ++    +R  ++    N   + ++  L  + K +  Y  V+L+  +F +VNR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1229161801|ref|XP_022093840.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X2 [Acanthaster planci]</Hit_def>
+  <Hit_accession>XP_022093840</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.55217e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>LLDGNPANETSLVLLLFADFS-SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVI-------------HNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>LFDGDEAKCDAVVGVKKAMASLSLIGCLFMIGVIW---LFKKHVVFVQRLILYLTIAAFFDSTAYLMANVQPDGPL-CDFEAFWLSFWDWAVLLWVTCLTVNLFLITVKMI-RMDRYEILYHAICWTVALVISLLPLIGDNYGPAGAWCWIKEESTAWRFFTWYGP-LFI-----IIIAMFILYSYIIFILNKKVKSWQGTYEPEIERNRQILKAEIRPLQAYPFIYLALSVFPLINRIQNAANPGNPIFALVILHALTSPLQGLVNAVVY</Hsp_hseq>
+      <Hsp_midline>L DG+ A   ++V +  A  S S++GC+ ++   W   L + HV  V       +    F ST   + N   +G   C   A  +++  +A  LW  CL ++++++ VK     +R+E  Y+ +CW + L+ +++ L  +     G WCWI    T +RF  +YGP LFI     +++ +   Y+Y++                 +  N++        L  Y  ++L   VF ++NRI N  N   P  AL ILH   S   G   +V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1183370474|gb|ORX96371.1|</Hit_id>
+  <Hit_def>hypothetical protein K493DRAFT_19960 [Basidiobolus meristosporus CBS 931.73]</Hit_def>
+  <Hit_accession>ORX96371</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.68778e-14</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>CYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCW---GLPLISTIVMLAK-NTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYII---VFLVCWVFAVVNRIVNGLNMFPPALNI----LHTYLSVSHGFWASVTFIYNNPL------MWRYFGAKILTVFTFFGYFTDV---QKKLEKNKNNNN</Hsp_qseq>
+      <Hsp_hseq>CLLQGLHITYFNVSSWLWGVCICFNVYLILLPSKKLLRIRHNIAFKFAWFSFGIPTILLITLVAQLDSIGNVGPWCWIRPQFMGLRMGAFYGWLLFAFTMCLLLLSVIAVHLLKIRSSVSYCDRGFHHPYEKMVGRYVLYVGTFFICWGPGVVNRILQISD--PPFYNFPLMAIHTFLSISVSFWLSLVWGFTTSLPEVYWIIWKYGWSNIPPV-QQFGSFSSAFTGLKRLEVPRVQNQ</Hsp_hseq>
+      <Hsp_midline>C L  + ITY + + WLW +C+  ++Y++++  +          +   W   G+P I  I ++A+ +++  VG WCWI   F G R G FYG  LF + +  +L+ + + +   +  +    ++  H  Y+  +  Y++    F +CW   VVNRI+   +  PP  N     +HT+LS+S  FW S+ + +   L      +W+Y  + I  V   FG F+      K+LE  +  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1027003955|ref|XP_016606693.1|</Hit_id>
+  <Hit_def>hypothetical protein SPPG_06335 [Spizellomyces punctatus DAOM BR117] &gt;gi|907092573|gb|KNC98653.1| hypothetical protein SPPG_06335 [Spizellomyces punctatus DAOM BR117]</Hit_def>
+  <Hit_accession>XP_016606693</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>6.62416e-14</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>STILTLTNTAVNGGFPCYLYA---IVITYGSFACWLWTLCLAISIYMLIVKREPEPE--RFEKYYYLLCWGLPLISTIVM-LAKNTVQ---FVGN--WCWIGVSFTGYRFGLFYGPFLFIWAISAV---LVG---------LTSRYTYVVIHNGVSDNKEKHLT----YQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTVEMQNIQISTSTNG</Hsp_qseq>
+      <Hsp_hseq>SIMLSLGSFPIEHGSEAFCSAQGFIIQTYIQ-ASMVWTLVMSMSIVFAVCKHRPLRDFMRYEKYFHAAAWGLPLISSIVLQLLREDDKGPVFAPSVFWCWIGGKYTSYRMIFFYGPLWTVFIINVLGYMTIGWIVWRGNRRLTSSLEVPFNRRGISIPSQRTSAAIKRYILKTSFYLLAFFINWLIPTVNRIQNMADPTYPIYGLFILHAVSAPLQGFLNSVVYFWATPRFLR---------------FCRRSGRLNKPRRQDR-----TPRSVNVLTMATALTG----------QIYDPAQPDKVNHTEAWVKSLPVAKTLTQDSESASS---------TVTMKTDDSSTSKPG</Hsp_hseq>
+      <Hsp_midline>S +L+L +  +  G   +  A   I+ TY   A  +WTL +++SI   + K  P  +  R+EKY++   WGLPLIS+IV+ L +   +   F  +  WCWIG  +T YR   FYGP   ++ I+ +    +G         LTS         G+S   ++       Y  K   Y++ F + W+   VNRI N  +   P   L ILH   +   GF  SV + +  P   R               F     +L K +  +      + R  +  TM    TG          Q      P+ VN+ +    +  + +    +  S+SS         TV M+    STS  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|961806294|ref|XP_014912020.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Poecilia latipinna]</Hit_def>
+  <Hit_accession>XP_014912020</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>6.71422e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSTFPLVNRLHNAFYPEEPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VNR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|542203411|ref|XP_005475537.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Oreochromis niloticus]</Hit_def>
+  <Hit_accession>XP_005475537</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>8.03113e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESQSDGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEMFYHLMAWGVPLVMASLPLFKGYYGPAGAWCWITDDHVAWRFGIWYVPLFVLIFLMIFCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPKAPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  +  +G   C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I+  + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|617383304|ref|XP_007547177.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Poecilia formosa] &gt;gi|961801285|ref|XP_014858741.1| PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Poecilia mexicana]</Hit_def>
+  <Hit_accession>XP_007547177</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>8.65993e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSIAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAAEIKPLKWYPSVYLLVSTFPLVNRLHNAFYPEEPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VNR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1228981595|ref|XP_022054890.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X1 [Acanthochromis polyacanthus]</Hit_def>
+  <Hit_accession>XP_022054890</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.49388e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGETLPKGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNKYEMLYHLMAWGVPLVMASLPLLKGTYGPAGPWCWITEDHVAWRFGIWYVPLFSLIFLMISCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRIHNAFYPEGPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    ++E  Y+L+ WG+PL+   + L K T    G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NRI N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|1129986602|ref|XP_019750030.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Hippocampus comes]</Hit_def>
+  <Hit_accession>XP_019750030</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.50646e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCMLMLFVIWLLRRYRSLAQKMILSLTVAAF---FDSLAYVMGESHPEGSL-CNFQAWWLTYFDWSALAWVCLITLNLYFNLV-REMSTTSYEMFYHLIAWGVPLVMSSLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFTLILLMICCYARIICVANHRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSTFPLINRLHNALYPLEPSFSLTLLHVFSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GCM +L   W L+  R+   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y  +V RE     +E +Y+L+ WG+PL+ + + L K      G WCWI      +RFG++Y P      L I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+   F ++NR+ N L    P  +L +LH + +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|1143403554|ref|XP_019956122.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Paralichthys olivaceus]</Hit_def>
+  <Hit_accession>XP_019956122</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>2.13235e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLAGCLFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESHSEGSL-CAFQAWWLTYFDWSSLAWVCLITLNLYLNLV-RETSTNRFEMFYHLVAWGVPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANARLQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+ GC+ +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE    RFE +Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++    +R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|1041075969|ref|XP_017265809.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Kryptolebias marmoratus]</Hit_def>
+  <Hit_accession>XP_017265809</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>3.47548e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLLGCLFMLFVIWLLRRYHSLAQKMILSLSVAAF---FDSVAYVMGETHPKGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYQMLYHLMAWGVPLVMASLPLFKGYYGPAGPWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANNRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPMDPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+LGC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R++  Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++    +R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|583986026|ref|XP_006788257.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A-like [Neolamprologus brichardi]</Hit_def>
+  <Hit_accession>XP_006788257</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>3.48025e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMI---LSLTVAAAFDSVAYVMGESQSDGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REIRTNRYEMFYHLMAWGVPLVMASLPLFKSYYGPAGAWCWITDDHVAWRFGIWYVPLFGLIFLMIFCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPKAPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I    + +    F S    +  +  +G   C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+L+ WG+PL+   + L K+     G WCWI      +RFG++Y P     FL I+  + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|1183312898|gb|ORX42865.1|</Hit_id>
+  <Hit_def>hypothetical protein BCR36DRAFT_406969 [Piromyces finnis]</Hit_def>
+  <Hit_accession>ORX42865</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>6.2941e-13</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>LTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIV--KREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQ-----FVGN---WCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKH----LTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFT-FFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGK</Hsp_qseq>
+      <Hsp_hseq>IPEDAVYSG-SCRFQGLRIQFFFIASALWTAAIAINIFLVVVMNKEIYEIERFEWIYHVFIWGISLSTSLFLFFKDQGRTDNKWIVGNATFWCWITENGSKYRLILFFGPLWTVFFIN-VLVFIIMK---IVIKKRKIDTDQIYAKNSIASRYHL--YLLVLFITWIWGTINRIQNEINSENPKFPLFVLHAFFTPLQGFLNSIVYFW-------------CTVFKHFFALIKNIQK--EQDDIKERRRRRDNQRKENGK</Hsp_hseq>
+      <Hsp_midline>+   AV  G  C    + I +   A  LWT  +AI+I++++V  K   E ERFE  Y++  WG+ L +++ +  K+  +      VGN   WCWI  + + YR  LF+GP   ++ I+ VLV +  +   +VI     D  + +    +  ++ L  Y++V  + W++  +NRI N +N   P   L +LH + +   GF  S+ + +              TVF  FF    ++QK  E++          + R  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|928056094|ref|XP_013877362.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Austrofundulus limnaeus]</Hit_def>
+  <Hit_accession>XP_013877362</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>7.32521e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLLGCLFMLFVIWLLRRYHSLAQKMILSLSVAAF---FDSIAYVMGETHLEGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYQMLYHLMAWGVPLIMASLPLFKGYYGPAGPWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANNRMQSWLGTFNPERERRKVSLADEIKPLKWYPSVYLLVSIFPLINRXHNAFYPQDPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+LGC+ +L   W L+   +   K+I      +F   F S    +  T + G   C   A  +TY  ++   W   + +++Y+ +V RE    R++  Y+L+ WG+PLI   + L K      G WCWI      +RFG++Y P     FL I   + ++    +R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR  N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|768909699|ref|XP_011604930.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011604930</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>8.65577e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLLGCLFMLIVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESLPKGPV-CNFQAWWLTYFDWSALAWVCLITLNLYFNLV-REVSTNKYEMLYHLMAWGVPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANQRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYSQEPSFTLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+LGC+ +LI  W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y  +V RE    ++E  Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|1049245895|ref|XP_017562084.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Pygocentrus nattereri]</Hit_def>
+  <Hit_accession>XP_017562084</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.00617e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>SLVACLFMLFVIWLLRRYNSLAQKMIVSLTVAAF---FDSVAYVMDESQAEGSL-CNFQAWWLTYFDWSALAWVCLITMNLYLNLV-REIRTEHYEIPYHLVAWGVPLLMSCLPLMRGYYGLAGAWCWIKDDHVAWRFGIWYIPLFILIFLMICCYARIICVANDRMQSWLGTFNPERERRKVSLAEEIRPLKWYPSVYLLVSIFPLLNRLHNAAYPKNPMFSLTLLHVLSAPLHGLANALVF</Hsp_hseq>
+      <Hsp_midline>S++ C+ +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE   E +E  Y+L+ WG+PL+ + + L +      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + + +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG   ++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|1108901477|ref|XP_019112956.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Larimichthys crocea]</Hit_def>
+  <Hit_accession>XP_019112956</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.31095e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLGGCVFMLFVIWLLRRYHSLAQKMILSLTVAAFF----DSVAYVMGESHPGGSLCNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REVSTNRYEMLYHLMAWGVPLVMASLPLLKDCYGPAGAWCWITEKHVAWRFGIWYVPLFSLIFLMICCYARIICVANERMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+ GC+ +L   W L+   +   K+I      +F      ++  +   +  GG  C   A  +TY  ++   W   + +++Y+ +V RE    R+E  Y+L+ WG+PL+   + L K+     G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|1183353113|gb|ORX81025.1|</Hit_id>
+  <Hit_def>hypothetical protein K493DRAFT_320773 [Basidiobolus meristosporus CBS 931.73]</Hit_def>
+  <Hit_accession>ORX81025</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.39815e-12</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>GLPLISTIVMLAK-NTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQF---KLINYIIVFLVCWVFAVVNRIVN--GLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERH</Hsp_qseq>
+      <Hsp_hseq>GLPAISMIPLLANLHDIEPLRAWCWIQPTAGDLRIGTFYGWLLLSCLIYIVLLAATLYQVSRLRRNPWEQQRSRKHPYERFLGRYVLYVVIFLLCWIPGVVNRIIQLKDPNYYNFILNAIQTFLSISESFWLSL-------------------VFGFTANLSEIYRRIWKSRDKTSQLPSQSSNSDVTKL-------EDVEVQGNGETYSANSH</Hsp_hseq>
+      <Hsp_midline>GLP IS I +LA  + ++ +  WCWI  +    R G FYG  L    I  VL+  T      +  N     + +   Y+    + + Y+++FL+CW+  VVNRI+     N +   LN + T+LS+S  FW S+                   VF F    +++ +++ K+++  +  P  SS     K        +DV+   + E  S   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|1007765869|ref|XP_015821562.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Nothobranchius furzeri]</Hit_def>
+  <Hit_accession>XP_015821562</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.55266e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLLGCFFMLFVIWVLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESHPEGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTSRYEIFYHLMAWGVPLVMASLPLIRGYYGPAGAWCWITDDHVAWRFGIWYIPLFSLIFLMICCYARIICVANNRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFPLTFLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+LGC  +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+L+ WG+PL+   + L +      G WCWI      +RFG++Y P     FL I   + ++    +R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L  LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|1174672487|ref|XP_020568497.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor 1-like isoform X4 [Oryzias latipes]</Hit_def>
+  <Hit_accession>XP_020568497</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>1.5677e-12</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>MLFVIWLLRRYQSLAQKMILCLTVAAF---FDSVAYVMGETHPEGFF-CDFQAWWVTYFDWSALAWVCLITLNLYLNLV-REMSTNRYEMFYHLLAWGTPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>+L   W L+  ++   K+I C    +F   F S    +  T   G F C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+LL WG PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|1042362058|ref|XP_017325014.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Ictalurus punctatus]</Hit_def>
+  <Hit_accession>XP_017325014</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.57007e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>GLLDGNPANETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-FLFIWAISAVLVGL-----TSRYTYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>GWMDGGLGKDVILTVKRATGAFSLVACLFMLFVVWLLRRYSSLAQKMVVSLTVAAF---FDSVAYVMGESHPEGAL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REIRTEHYEIPYHIVAWGIPLLMSILPLMKGYYGPAGAWCWITDDHVAWRFGIWYIPLFTLIFLMSCCYVRIICVANKRMQSWFGTFNPERERRKMSLVEEIRPLKWYPSVYLLVSIFPLLNRLHNAVYPEDPVFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>G +DG    +  L +       S++ C+ +L   W L+   +   K++      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE   E +E  Y+++ WG+PL+ +I+ L K      G WCWI      +RFG++Y P F  I+ +S   V +         ++    N   + ++  L  + + +  Y  V+L+  +F ++NR+ N +    P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|1242816585|ref|XP_022289011.1|</Hit_id>
+  <Hit_def>G-protein coupled receptor 1-like isoform X1 [Crassostrea virginica]</Hit_def>
+  <Hit_accession>XP_022289011</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.85655e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>LLDGNPANETSLVLLLFADFS-SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVI------------HNGVSDNKEKHLTYQFK-LINYIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>LFPDNPGHCDALIHLRRGISSISLIGCLFMIVVIW---LFKKHVAFSQRLILYLSIAAFFDSIAYLMGDIRPDGPM-CDFQAWWLTFFDWCVLVWVCIITFNLFMNVVKTK-NIERFEILFHLIGWVVPAIISFLPFSGNHYGPAGAWCWI-VNDLGWRFGIWYGP-LFI-----AIIGLVVTYVYIIVTLNRRLSTWQGTYDPDSERQAAMLKDDIKSLRAYPFIYLAASIFPLINRIQNAAAPDDPVFALVILAALTAPLHGAMNAVVF</Hsp_hseq>
+      <Hsp_midline>L   NP +  +L+ L     S S++GC+ +++  W   L + HV          S    F S    + +   +G   C   A  +T+  +   +W   +  +++M +VK +   ERFE  ++L+ W +P I + +  + N     G WCWI V+  G+RFG++YGP LFI      ++GL   Y Y+++            ++  S+ +   L    K L  Y  ++L   +F ++NRI N      P  AL IL    +  HG   +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|1198306212|gb|OUM62976.1|</Hit_id>
+  <Hit_def>hypothetical protein PIROE2DRAFT_10610 [Piromyces sp. E2]</Hit_def>
+  <Hit_accession>OUM62976</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.88748e-12</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>CYLYAIVITYGSFACWLWTLCLAISIYMLIV--KREPEPERFEKYYYLLCWGLPLISTIVML-----AKNTVQFVGN---WCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLERHPNMVNNQQNLNNNYGLQQNYNDEGSSSSSLSSSDEEKQTVEMQNIQISTSTNGQ</Hsp_qseq>
+      <Hsp_hseq>CRSQGLRIQFFFIGSALWTCAIAINIFLVVVMNKEIYEIERFEWMYHIVIWGICVTTSLFLFFQDYNRKNDEYIVGNATFWCWITNYGRQYRLYLFFGPLWVIFLINLAVFIIMKIVIKKKNIDTTQIYAKNSIASRYHL--YLLVLVITWFWGTVNRIQNITNNEKPVFVLYLLHAIFTPLQGFLNSVVYFW----------------CTVIKYFIDLNKNIQKEQDNIRE---LRRRRNSEQGMDEGMSRSRGKSERDIYDNYYVYNPRPLPTRH--------QRNSKCKGKSRPRRSSDDKIPSSKEIKNTVIYPSDEKQ</Hsp_hseq>
+      <Hsp_midline>C    + I +      LWT  +AI+I++++V  K   E ERFE  Y+++ WG+ + +++ +       KN    VGN   WCWI      YR  LF+GP   I+ I+  +  +          +      +  +  ++ L  Y++V ++ W +  VNRI N  N   P   L +LH   +   GF  SV + +                 T   YF D+ K ++K ++N         R  S + M    +    +   D+       +P  +  +         Q+N   +G S    SS D+   + E++N  I  S   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|1242816587|ref|XP_022289012.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X2 [Crassostrea virginica]</Hit_def>
+  <Hit_accession>XP_022289012</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>2.32375e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>LLDGNPANETSLVLLLFADFS-SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVI------------HNGVSDNKEKHLTYQFK-LINYIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>LFPDNPGHCDALIHLRRGISSISLIGCLFMIVVIW---LFKKHVAFSQRLILYLSIAAFFDSIAYLMGDIRPDGPM-CDFQAWWLTFFDWCVLVWVCIITFNLFMNVVKTK-NIERFEILFHLIGWVVPAIISFLPFSGNHYGPAGAWCWI-VNDLGWRFGIWYGP-LFI-----AIIGLVVTYVYIIVTLNRRLSTWQGTYDPDSERQAAMLKDDIKSLRAYPFIYLAASIFPLINRIQNAAAPDDPVFALVILAALTAPLHGAMNAVVF</Hsp_hseq>
+      <Hsp_midline>L   NP +  +L+ L     S S++GC+ +++  W   L + HV          S    F S    + +   +G   C   A  +T+  +   +W   +  +++M +VK +   ERFE  ++L+ W +P I + +  + N     G WCWI V+  G+RFG++YGP LFI      ++GL   Y Y+++            ++  S+ +   L    K L  Y  ++L   +F ++NRI N      P  AL IL    +  HG   +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|974085700|ref|XP_015240857.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Cyprinodon variegatus]</Hit_def>
+  <Hit_accession>XP_015240857</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.32734e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLLGCVFMLLVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGETHPEGTL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REMGTNKYEMFYHLMAWGVPLVMASLPLLKGYYGPAGAWCWITDGHVAWRFGIWYVPLFTLIFLMICCYARIICVANKRMQSWWGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+LGC+ +L+  W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    ++E +Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  ++    N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|498986430|ref|XP_004551281.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Maylandia zebra]</Hit_def>
+  <Hit_accession>XP_004551281</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.55199e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGFWASVTFIYNN</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMI---LSLTVAAAFDSVAYVMGESQPDGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLVG-EISTNRYEMFYHLMAWGVPLVMASLPLFKGYYGPAGAWCWITDDHVAWRFGIWYVPLFGLIFLMIFCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPKAPSFYLTLLHVLSAPLHGLANAFVFGLNR</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I    + +    F S    +  +  +G   C   A  +TY  ++   W   + +++Y+ +V  E    R+E +Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I+  + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG   +  F  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|1250112094|ref|XP_022596813.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A [Seriola dumerili]</Hit_def>
+  <Hit_accession>XP_022596813</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>3.12487e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLAGCLFMLFVIWVLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESHPEGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEMLYHVMAWGVPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANERMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+ GC+ +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+E  Y+++ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|1042362056|ref|XP_017325013.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Ictalurus punctatus]</Hit_def>
+  <Hit_accession>XP_017325013</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>5.66969e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-FLFIWAISA-----VLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVACLFMLFVVWLLRRYSSLAQKMVVSLTVAAF---FDSVAYVMGESHPEGAL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REIRTEHYEIPYHIVAWGIPLLMSILPLMKGYYGPAGAWCWITDDHVAWRFGIWYIPLFTLIFLMSCCYVRIICVANKRMQSWFGTFNPERERRKMSLVEEIRPLKWYPSVYLLVSIFPLLNRLHNAVYPEDPVFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++ C+ +L   W L+   +   K++      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE   E +E  Y+++ WG+PL+ +I+ L K      G WCWI      +RFG++Y P F  I+ +S      + V      ++    N   + ++  L  + + +  Y  V+L+  +F ++NR+ N +    P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|1160556715|ref|XP_020436254.1|</Hit_id>
+  <Hit_def>G-protein-coupled receptor family protein [Polysphondylium pallidum PN500] &gt;gi|281209969|gb|EFA84137.1| G-protein-coupled receptor family protein [Polysphondylium pallidum PN500]</Hit_def>
+  <Hit_accession>XP_020436254</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>5.92229e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVS---FTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNG-VSDNKEKHLTYQFKLINYIIVFL-VCWVFAVVNRIVN</Hsp_qseq>
+      <Hsp_hseq>SIVGSGLTVITFMLFPKLRTYPIRLILYLCMAIF---FAQTFFYVAFEAYDG-IMCLPSAIILHYFFLADFIWTFCVAFNFYQMIVKRNRDAESFEKYYHLASWGLPFIFVIAIAATKNYVRRDAFCYMNAQLPVFLG-----FFVPGLLVVCANAVIFFFIAREIHDTLKNAPRSDKKEK--SKEFRVYFSIFVSIGLSWIFGFIMTFFN</Hsp_hseq>
+      <Hsp_midline>S++G    +I F     LR +  ++I   C   F   F  T   +   A +G   C   AI++ Y   A ++WT C+A + Y +IVKR  + E FEKYY+L  WGLP I  I + A         +C++      F G     F+ P L +   +AV+    +R  +  + N   SD KEK  + +F++   I V + + W+F  +    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|765155314|ref|XP_011487625.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X3 [Oryzias latipes]</Hit_def>
+  <Hit_accession>XP_011487625</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>6.31628e-12</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>RNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>EDYRCKMILCLTVAAF---FDSVAYVMGETHPEGFF-CDFQAWWVTYFDWSALAWVCLITLNLYLNLV-REMSTNRYEMFYHLLAWGTPLVMASLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline> ++  K+I C    +F   F S    +  T   G F C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+LL WG PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|548378919|ref|XP_005733895.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Pundamilia nyererei]</Hit_def>
+  <Hit_accession>XP_005733895</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.47752e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGFWASVTFIYNN</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMI---LSLTVAAAFDSVAYVMGESQPDGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLVG-EISTNRYEMFYHLMAWGVPLVMASLPLFKGYYGPAGAWCWITDDHVAWRFGIWYVPLFGLIFLMIFCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPKAPSFYLTLLHVLSAPLHGLANAFVFGLNR</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I    + +    F S    +  +  +G   C   A  +TY  ++   W   + +++Y+ +V  E    R+E +Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I+  + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG   +  F  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|1025308052|ref|XP_016383219.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Sinocyclocheilus rhinocerous]</Hit_def>
+  <Hit_accession>XP_016383219</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>8.33425e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPF-----LFIWAISAVLVGLTSR-YTYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>SLLACFFMLFAIWLFRRYNSLAQKMIFSLTVAAF---FDSVAYVMGESHPEGSL-CNFQAWWLTYSDWTALMWVCLITFNLYLNLV-REIRTEHYEIPYHVVAWGVPLLMSTLPLMAGYYGPAGAWCWITDNHVGWRFGIWYVPLFSLIILMICCYARIICVANKRMHSWLGPFNPERERKKISLSEEIRPLKWYPSVYLLVSIFPLINRLHNAAYPENPVFSLTLLHVLSAPLHGLANALVF</Hsp_hseq>
+      <Hsp_midline>S+L C  +L   W  +   +   K+I      +F   F S    +  +   G   C   A  +TY  +   +W   +  ++Y+ +V RE   E +E  Y+++ WG+PL+ + + L        G WCWI  +  G+RFG++Y P      L I   + ++     R ++++   N   + K+  L+ + + +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG   ++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|657525235|ref|XP_008279855.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Stegastes partitus]</Hit_def>
+  <Hit_accession>XP_008279855</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>8.77576e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSMAYVMGESHPEGSL-CKFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEMLYHLMAWGVPLVMASLPLLKGYYGEAGAWCWITDNHVAWRFGIWYVPLFSLIFLMICCYARIIYVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLNNRLHNAFYPQNPSFTLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+E  Y+L+ WG+PL+   + L K      G WCWI  +   +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F + NR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|585660875|ref|XP_006816464.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A-like isoform X1 [Saccoglossus kowalevskii]</Hit_def>
+  <Hit_accession>XP_006816464</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>9.13619e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>LLDGNPAN-ETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWI-GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIH------------NGVSDNKEKHLTYQFK-LINYIIVFLVCWVFAVVNRIVNGLNMFPP-ALNILHTYLSVSHG</Hsp_qseq>
+      <Hsp_hseq>LFDGNEGKCDAVIAVKRFTASLSLIGCVFMIAVIWLFKKYQFFAQRLILYLSIAALC----DSIAYLMGDLHPEGPLCDFQAWWLTFFDWCVLLWVSCITFNLFCNAV-RQIKTDRYELIYHVICWGLSLLISLLPFIGDHYGPAGAWCWINGENDTTWRFVIWYGP-LFV-----IIFLMFCIYLYIIIHVNRKVKAWEGTYDPETERSKQLLKEEIKPLLVYPFIYLIISIFPLINRIQNAISHDPIFAFVLLHALTSPLQG</Hsp_hseq>
+      <Hsp_midline>L DGN    +  + +  F    S++GC+ ++   W  K  +    ++I      + C     +I  L       G  C   A  +T+  +   LW  C+  +++   V R+ + +R+E  Y+++CWGL L+ +++    +     G WCWI G + T +RF ++YGP LF+     ++  +   Y Y++IH            +  ++  ++ L  + K L+ Y  ++L+  +F ++NRI N ++  P  A  +LH   S   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|585660879|ref|XP_006816465.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A-like isoform X2 [Saccoglossus kowalevskii]</Hit_def>
+  <Hit_accession>XP_006816465</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>9.75499e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>LLDGNPAN-ETSLVLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWI-GVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIH------------NGVSDNKEKHLTYQFK-LINYIIVFLVCWVFAVVNRIVNGLNMFPP-ALNILHTYLSVSHG</Hsp_qseq>
+      <Hsp_hseq>LFDGNEGKCDAVIAVKRFTASLSLIGCVFMIAVIWLFKKYQFFAQRLILYLSIAALC----DSIAYLMGDLHPEGPLCDFQAWWLTFFDWCVLLWVSCITFNLFCNAV-RQIKTDRYELIYHVICWGLSLLISLLPFIGDHYGPAGAWCWINGENDTTWRFVIWYGP-LFV-----IIFLMFCIYLYIIIHVNRKVKAWEGTYDPETERSKQLLKEEIKPLLVYPFIYLIISIFPLINRIQNAISHDPIFAFVLLHALTSPLQG</Hsp_hseq>
+      <Hsp_midline>L DGN    +  + +  F    S++GC+ ++   W  K  +    ++I      + C     +I  L       G  C   A  +T+  +   LW  C+  +++   V R+ + +R+E  Y+++CWGL L+ +++    +     G WCWI G + T +RF ++YGP LF+     ++  +   Y Y++IH            +  ++  ++ L  + K L+ Y  ++L+  +F ++NRI N ++  P  A  +LH   S   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|1249609149|dbj|GAX96273.1|</Hit_id>
+  <Hit_def>Hypothetical protein PINS_004121 [Pythium insidiosum]</Hit_def>
+  <Hit_accession>GAX96273</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.18629e-11</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTK-VIACFCATSFCKDFPSTILTLTNTAVNG----GFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVG------NWCWIGVSFTG-----------YRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVN</Hsp_qseq>
+      <Hsp_hseq>ALLIASSVVSFLGCAFVFLTW---KTLPNYLSRRIVASMGVAGLVTAFGFSLSIVVNGLGDAYHAHEATCYVQAFLLQYFYLASYLWTACFAFHLYQIIVVRNEYPERLLWHYRVIGWGIPGATIAFLVLRQLTGHLGVGAADRRWCWISVHTVDDVATWQQEGAWQQLLLFYVPIGVIFLFNAVMYRLILRF---LAFDPMRDRLKR------RIVFYLVVFFLCSIWGVINRIVQ</Hsp_hseq>
+      <Hsp_midline> LL+ +   S LGC  V + +   K L N++++ ++A          F  ++  + N   +        CY+ A ++ Y   A +LWT C A  +Y +IV R   PER   +Y ++ WG+P  +   ++ +     +G       WCWI V                +  LFY P   I+  +AV+  L  R+   +  + + D  ++      +++ Y++VF +C ++ V+NRIV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|632937431|ref|XP_007899625.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007899625</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.43181e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKH----LTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTFIYNN</Hsp_qseq>
+      <Hsp_hseq>SLLGCFFMLFVIWLFQKYTSLAQKMILSLTVAALF----DSIAYLMGEVIPDGVLCNFQAWWLTYFDWCSLAWVCCITINLYFNLVK-ETRTDRFAVAYHIIAWGVPFILSCLPLFGDYYGPAGAWCWITDDHAAWRFGIWYIPLFVLIFLMMFCYLRIIYVAKQR---VLTWSGTYDPERERSKILLTLEIKPLKWYPSVYLAVSLFPLINRLHNAFDPSHPVFVLTFLHVMTAPLHGLANAIVFGFDR</Hsp_hseq>
+      <Hsp_midline>S+LGC  +L   W  +   +   K+I      +       +I  L    +  G  C   A  +TY  +    W  C+ I++Y  +VK E   +RF   Y+++ WG+P I + + L  +     G WCWI      +RFG++Y P     FL ++    ++     R   V+  +G  D + +     LT + K +  Y  V+L   +F ++NR+ N  +   P   L  LH   +  HG   ++ F ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|1249609128|dbj|GAX96252.1|</Hit_id>
+  <Hit_def>Hypothetical protein PINS_004140 [Pythium insidiosum]</Hit_def>
+  <Hit_accession>GAX96252</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.68416e-11</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VLLLFADFSSMLGCMAVLIGFWRLKLLRNHVTK-VIACFCATSFCKDFPSTILTLTNTAVNG----GFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVG------NWCWIGVSFTG-----------YRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLINYIIVFLVCWVFAVVNRIVN</Hsp_qseq>
+      <Hsp_hseq>ALLIASSVVSFLGCAFVFLTW---KTLPNYLSRRIVASMGVAGLVTAFGFSLSIVVNGLGDAYHAHEATCYVQAFLLQYFYLASYLWTACFAFHLYQIIVVRNEYPERLLWHYRVIGWGIPGATIAFLVLRQLTGHLGVGAADRRWCWISVHTVDDVATWQXEGAWQQLLLFYVPIGVIFLFNAVMYRLILRF---LAFDPMRDRLKR------RIVFYLVVFFLCSIWGVINRIVQ</Hsp_hseq>
+      <Hsp_midline> LL+ +   S LGC  V + +   K L N++++ ++A          F  ++  + N   +        CY+ A ++ Y   A +LWT C A  +Y +IV R   PER   +Y ++ WG+P  +   ++ +     +G       WCWI V                +  LFY P   I+  +AV+  L  R+   +  + + D  ++      +++ Y++VF +C ++ V+NRIV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|657799101|ref|XP_008326652.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Cynoglossus semilaevis]</Hit_def>
+  <Hit_accession>XP_008326652</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.74256e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLVGCLFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESHPPEGSLCDFQAWWLTYFDWSALAWVCLITLNLYFNLVQ-EISTNKYEMLYHLMAWGVPLVMASLPWLKGCYGPAGAWCWIRDDHVAWRFGIWYVPLFTLIFLMICCYARIICVANARLQSWLGTFNPERERRKVSLSEEIKPLKWYPSVYLLVSIFPLINRLHNAVYPQEPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  +    G  C   A  +TY  ++   W   + +++Y  +V+ E    ++E  Y+L+ WG+PL+   +   K      G WCWI      +RFG++Y P     FL I   + ++    +R  +++   N   + ++  L+ + K +  Y  V+L+  +F ++NR+ N +    P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|808884058|gb|KKF31077.1|</Hit_id>
+  <Hit_def>Cyclic AMP receptor-like protein A, partial [Larimichthys crocea]</Hit_def>
+  <Hit_accession>KKF31077</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.27014e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFP---STILTLTNTAV------------NGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLGGCVFMLFVIWLLRRYHSLAQKMILSLTVAAFFDSVAYVMKMILSLTVAAFFDSVAYVMGESHPGGSLCNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REVSTNRYEMLYHLMAWGVPLVMASLPLLKDCYGPAGAWCWITEKHVAWRFGIWYVPLFSLIFLMICCYARIICVANERMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+ GC+ +L   W L+   +   K+I      +F          IL+LT  A              GG  C   A  +TY  ++   W   + +++Y+ +V RE    R+E  Y+L+ WG+PL+   + L K+     G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|1079776387|ref|XP_018558175.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Lates calcarifer]</Hit_def>
+  <Hit_accession>XP_018558175</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.67082e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLAGCLFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGESHPEGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYLMLYHLMAWGVPLVMASLPLLKGYYGPAGAWCWITEDHVAWRFGIWYVPLFSLIFLMICCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSTFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S+ GC+ +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+   Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + K +  Y  V+L+   F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|1024955317|ref|XP_016298520.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Sinocyclocheilus anshuiensis]</Hit_def>
+  <Hit_accession>XP_016298520</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.73499e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPF-----LFIWAISAVLVGLTSR-YTYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>SLVACFFMLFAIWLFRRYNSLAQKMIFSLTVAAF---FDSVAYVMGESHPEGSL-CSFQAWWLTYFDWTALMWVCLITFNLYLNLV-REIRTEHYEILYHVVAWGVPLLMSTLPLMAGYYGPAGAWCWITDNHVGWRFGIWYVPLFSLIILMICCYARIICVANERMHSWLGPFNPERERKKISLSEEIRPLKWYPSVYLLVSIFPLVNRLHNAAYPKNPVLSLTLLHVLSAPLHGLANALVF</Hsp_hseq>
+      <Hsp_midline>S++ C  +L   W  +   +   K+I      +F   F S    +  +   G   C   A  +TY  +   +W   +  ++Y+ +V RE   E +E  Y+++ WG+PL+ + + L        G WCWI  +  G+RFG++Y P      L I   + ++     R ++++   N   + K+  L+ + + +  Y  V+L+  +F +VNR+ N      P  +L +LH   +  HG   ++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|554849768|ref|XP_005935165.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Haplochromis burtoni]</Hit_def>
+  <Hit_accession>XP_005935165</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.25668e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGFWASVTFIYNN</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMI---LSLTVAAAFDSVAYVMGESQPDGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLVG-EISTNRYEMFYHLMAWGVPLVMASLPLFNGYYGPAGAWCWITDDHVAWRFGIWYVPLFGLIFLMIFCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPKAPSFYLTLLHVLSAPLHGLANAFVFGLNR</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I    + +    F S    +  +  +G   C   A  +TY  ++   W   + +++Y+ +V  E    R+E +Y+L+ WG+PL+   + L        G WCWI      +RFG++Y P     FL I+  + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P+  L +LH   +  HG   +  F  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|961806298|ref|XP_014912029.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Poecilia latipinna] &gt;gi|961806302|ref|XP_014912035.1| PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Poecilia latipinna]</Hit_def>
+  <Hit_accession>XP_014912029</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>4.09973e-11</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>MLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSTFPLVNRLHNAFYPEEPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>+L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VNR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|330797916|ref|XP_003287003.1|</Hit_id>
+  <Hit_def>hypothetical protein DICPUDRAFT_151051 [Dictyostelium purpureum] &gt;gi|325083026|gb|EGC36490.1| hypothetical protein DICPUDRAFT_151051 [Dictyostelium purpureum]</Hit_def>
+  <Hit_accession>XP_003287003</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>4.42074e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFV--GNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVI-HNGVSDNKEKHLTYQFKLINYIIVFL---VCWVFAVVNRIVNGLNMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVF--TFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSSDMEQCSLE</Hsp_qseq>
+      <Hsp_hseq>SIIGSFLTIFTFILFYRLRSFPIRLIVYLCFSIF---FAHLFFEVSYRSAENLF-CIPSAILIHYFFLADFFWTFCVSFNFFQMIVKRNRDAESFELYYHLISWGIPLV--IVILCSSFQKYINKGGFCYLENDLPIY-LG-FFVPGLIIVCANSITFFFTAREIQKTFKHSPPTKKKEK--SKQFRV--YFSIFISIGFSWLFGFITVFFKNGSIPQYIFQILFSITTTLQGFLIFVSYCLNNKVFAHY--ARALTALGVPFFERFQHLDSTSATGTYNN------TSNGTHLRTMSDYSKNTNQNTESTDSSVSIK</Hsp_hseq>
+      <Hsp_midline>S++G    +  F     LR+   ++I   C + F   F      ++  +    F C   AI+I Y   A + WT C++ + + +IVKR  + E FE YY+L+ WG+PL+  IV+L  +  +++  G +C++      Y  G F+ P L I   +++    T+R       H+  +  KEK  + QF++  Y  +F+     W+F  +       ++      IL +  +   GF   V++  NN +   Y  A+ LT     FF  F  +         NN      +S GT  +TM  +    +    S     S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|942144176|ref|XP_014343476.1|</Hit_id>
+  <Hit_def>PREDICTED: G-protein coupled receptor 1-like [Latimeria chalumnae]</Hit_def>
+  <Hit_accession>XP_014343476</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>5.05194e-11</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>FPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-FLFIWAISA-----VLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>FFDSIAYVMGEVLADGVLCNFQAWWLTYFDWCSLAWVCCITLNLYLNLVK-ETRTDRFELMYHIVAWGVPFILSCLPLFGDYYGPAGAWCWITDSHVAWRFGIWYIPLFILIFLMTMCYFRIIYVAKERVLTWSGTYDPERERSKVLLAEEIKPLKWYPCVYLAVSVFPLINRLHNAFYPSEPVFVLTLLHVLTAPLHGLANSIVF</Hsp_hseq>
+      <Hsp_midline>F  +I  +    +  G  C   A  +TY  +    W  C+ +++Y+ +VK E   +RFE  Y+++ WG+P I + + L  +     G WCWI  S   +RFG++Y P F+ I+ ++      + V      T+   ++   +  +  L  + K +  Y  V+L   VF ++NR+ N      P   L +LH   +  HG   S+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|617383307|ref|XP_007547178.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Poecilia formosa] &gt;gi|617383311|ref|XP_007547179.1| PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Poecilia formosa] &gt;gi|961801289|ref|XP_014858749.1| PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Poecilia mexicana] &gt;gi|961801293|ref|XP_014858757.1| PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Poecilia mexicana]</Hit_def>
+  <Hit_accession>XP_007547178</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>5.53407e-11</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPPA--LNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>MLFVIWLLRRYHSLAQKMILSLTVAAF---FDSIAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAAEIKPLKWYPSVYLLVSTFPLVNRLHNAFYPEEPSFPLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>+L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VNR+ N      P+  L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|926629322|ref|XP_013780303.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A isoform X1 [Limulus polyphemus]</Hit_def>
+  <Hit_accession>XP_013780303</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.34563e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFP----CYLYAIVITYGSFACWLWTLCLAISIYM--LIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSR-YTYVVIH------------NGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGL---NMFPPALNILHTYLSVSHGFWASVTFIYNNPLMWRYFGAKILTVFTFFGYFTDVQKKLEKNKNNNNPSPYSSSRGTSGKTMGGHPTGDDVQCSS</Hsp_qseq>
+      <Hsp_hseq>SIIGCLFIVGVIWLFKKYEVFAQRLILYLSMAAF--------LSSVGYLFAGNYPQSPSCKFEAFWLTYFEWVVLLWVCCITVNLLFNGILTRRT---DHFEWLYHVICWCIPLVISCFPFINNSYGYAGAWCWIQPQFPYWRFGIWYGPLF-------VIIGLLFVCYLYLTIHLRRKVKSWEGLYNPELERTKEVLRQQIRPLQWYPLIYLSLSVFPLIHRIQNAISHENVF--GLMLLHILFAPLPGTVNAIVFTLDRETTSRLSWIQVKR--AFLSHFTKQTIIGEYPAEVHSPISTSNSQPIIDMEITSEQTDLDVHVSQ</Hsp_hseq>
+      <Hsp_midline>S++GC+ ++   W  K       ++I      +F        L+       G +P    C   A  +TY  +   LW  C+ +++    ++ +R    + FE  Y+++CW +PL+ +      N+  + G WCWI   F  +RFG++YGP         V++GL    Y Y+ IH            N   +  ++ L  Q + +  Y +++L   VF +++RI N +   N+F   L +LH   +   G   ++ F  +     R    ++     F  +FT      E     ++P   S+S+      +    T  DV  S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|929286756|ref|XP_014020413.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X1 [Salmo salar]</Hit_def>
+  <Hit_accession>XP_014020413</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.53607e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>SLIGCFFMLFVIWLLRRYHSLAQKMI---CSLTVAAFFDSVAYVMGDTHPEGSL-CNFQAWWLTYFDWSALAWVCLITVNLYLNLVK-EMSTSHYQLLYHLMAWGVPLVMSSLPLFSGYYGPAGAWCWITDDHVAWRFGIWYVPLFTLIFLMICCYARIIYVANERMQSWFGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSLFPLINRLHNAFYPQDPVFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline>S++GC  +L   W L+   +   K+I   C+ +    F S    + +T   G   C   A  +TY  ++   W   + +++Y+ +VK E     ++  Y+L+ WG+PL+ + + L        G WCWI      +RFG++Y P     FL I   + ++     R  ++    N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|542203414|ref|XP_005475538.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X2 [Oreochromis niloticus]</Hit_def>
+  <Hit_accession>XP_005475538</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>7.28716e-11</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>RNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>EDYQCKMILSLTVAAF---FDSVAYVMGESQSDGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEMFYHLMAWGVPLVMASLPLFKGYYGPAGAWCWITDDHVAWRFGIWYVPLFVLIFLMIFCYARIICVANKRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSIFPLINRLHNAFYPKAPSFSLTLLHVLSAPLHGL</Hsp_hseq>
+      <Hsp_midline> ++  K+I      +F   F S    +  +  +G   C   A  +TY  ++   W   + +++Y+ +V RE    R+E +Y+L+ WG+PL+   + L K      G WCWI      +RFG++Y P     FL I+  + ++     R  +++   N   + ++  L  + K +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|1049245897|ref|XP_017562085.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor 1-like isoform X2 [Pygocentrus nattereri]</Hit_def>
+  <Hit_accession>XP_017562085</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.02504e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNR</Hsp_qseq>
+      <Hsp_hseq>SLVACLFMLFVIWLLRRYNSLAQKMIVSLTVAAF---FDSVAYVMDESQAEGSL-CNFQAWWLTYFDWSALAWVCLITMNLYLNLV-REIRTEHYEIPYHLVAWGVPLLMSCLPLMRGYYGLAGAWCWIKDDHVAWRFGIWYIPLFILIFLMICCYARIICVANDRMQSWLGTFNPERERRKVSLAEEIRPLKWYPSVYLLVSIFPLLNR</Hsp_hseq>
+      <Hsp_midline>S++ C+ +L   W L+   +   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y+ +V RE   E +E  Y+L+ WG+PL+ + + L +      G WCWI      +RFG++Y P     FL I   + ++     R  +++   N   + ++  L  + + +  Y  V+L+  +F ++NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|961806314|ref|XP_014912058.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X5 [Poecilia latipinna]</Hit_def>
+  <Hit_accession>XP_014912058</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.10207e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVN</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSVAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSTFPLVN</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|961801305|ref|XP_014858780.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X5 [Poecilia mexicana]</Hit_def>
+  <Hit_accession>XP_014858780</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.14426e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVN</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSIAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAAEIKPLKWYPSVYLLVSTFPLVN</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|1188091336|ref|XP_020791985.1|</Hit_id>
+  <Hit_def>cyclic AMP receptor-like protein A [Boleophthalmus pectinirostris]</Hit_def>
+  <Hit_accession>XP_020791985</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.21865e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>SLLGCLWMLFVIWLLRRYNSVAQKMILSLTIAAI---FDSVAYVMGDTHLEGSL-CDFQAWWLTYFDWSALAWVCLITLNLYLNLVC-EISTTRFEILYHLTAWGVPLAMASLPLMKGFYGPAGAWCWITGDHVAWRFGIWYVPLFTLILLMICCYARIIFVANKRMQSWLGTFNPERERRKVSLAEEIRPLKWYPSVYLLVSIFPLINRLHNAFYPQDPSFSLTLLHVLSAPLHGLANSFVF</Hsp_hseq>
+      <Hsp_midline>S+LGC+ +L   W L+   +   K+I      +    F S    + +T + G   C   A  +TY  ++   W   + +++Y+ +V  E    RFE  Y+L  WG+PL    + L K      G WCWI      +RFG++Y P      L I   + ++     R  +++   N   + ++  L  + + +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG   S  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gi|1101599990|ref|XP_018965181.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A [Cyprinus carpio] &gt;gi|1101599992|ref|XP_018965182.1| PREDICTED: cyclic AMP receptor-like protein A [Cyprinus carpio] &gt;gi|1101599994|ref|XP_018965184.1| PREDICTED: cyclic AMP receptor-like protein A [Cyprinus carpio]</Hit_def>
+  <Hit_accession>XP_018965181</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.39616e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAI------SAVLVGLTSRYTYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGFWASVTF</Hsp_qseq>
+      <Hsp_hseq>SLVACLFMLFAIWLLRRYNSLAQKMIF---SLTIAAAFDSVAYVMGESHLEGSL-CNFQAWWLTYFDWTALMWVCLITFNLYLNLV-REIRTEHYEIPYHLVAWGVPLLMSTLPLMAGYYGPSGAWCWITDKHVGWRFGIWYIPLFSLIILMTCCYARIICVANERMRSWLGTFNPERERRKISLAEEIRPLKWYPSVYLLVSIFPLINRLHNAAYPEDPVFSLTLLHVLSAPLHGLANALVF</Hsp_hseq>
+      <Hsp_midline>S++ C+ +L   W L+   +   K+I    + +    F S    +  + + G   C   A  +TY  +   +W   +  ++Y+ +V RE   E +E  Y+L+ WG+PL+ + + L        G WCWI     G+RFG++Y P   +  +        + V      +++   N   + ++  L  + + +  Y  V+L+  +F ++NR+ N      P  +L +LH   +  HG   ++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gi|617383326|ref|XP_007547184.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X5 [Poecilia formosa]</Hit_def>
+  <Hit_accession>XP_007547184</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.69717e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGP-----FLFIWAISAVLVGLTSRY-TYVVIHNGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVN</Hsp_qseq>
+      <Hsp_hseq>SLVGCVFMLFVIWLLRRYHSLAQKMILSLTVAAF---FDSIAYVMGETHPKGSL-CNFQAWWLTYFDWSALAWVCLITLNLYLNLV-REISTNRYEKFYHLMAWGLPLVMASLPLLRGCYGPAGAWCWITDDHVAWRFGIWYVPLFSLIFLMICCYGRIICVANNRMQSWRGTFNPERERRKVSLAAEIKPLKWYPSVYLLVSTFPLVN</Hsp_hseq>
+      <Hsp_midline>S++GC+ +L   W L+   +   K+I      +F   F S    +  T   G   C   A  +TY  ++   W   + +++Y+ +V RE    R+EK+Y+L+ WGLPL+   + L +      G WCWI      +RFG++Y P     FL I     ++    +R  ++    N   + ++  L  + K +  Y  V+L+   F +VN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gi|831768006|ref|XP_012752273.1|</Hit_id>
+  <Hit_def>hypothetical protein SAMD00019534_077790 [Acytostelium subglobosum LB1] &gt;gi|735852905|dbj|GAM24604.1| hypothetical protein SAMD00019534_077790 [Acytostelium subglobosum LB1]</Hit_def>
+  <Hit_accession>XP_012752273</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.71797e-10</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SMLGCMAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIHNG-VSDNKEKHLTYQ</Hsp_qseq>
+      <Hsp_hseq>SMVGSGLTVITFMLFPKLRTYPIRLILYLCMSIF---FAQLFFYVSFEAWDT-IMCLPSAIILHYFFLADFIWTFCVAFNFYQMIVKRNRDAESFEKYYHLASWGLPAIFVVAIAATKNYVNRKNFCYMNAQLP--VFLGFFVPGLLVVCANAVIFFFIAREIHDTLKNAPRSDKKEKSKEFR</Hsp_hseq>
+      <Hsp_midline>SM+G    +I F     LR +  ++I   C + F   F      ++  A +    C   AI++ Y   A ++WT C+A + Y +IVKR  + E FEKYY+L  WGLP I  + + A        N+C++        F  F+ P L +   +AV+    +R  +  + N   SD KEK   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|1129986604|ref|XP_019750031.1|</Hit_id>
+  <Hit_def>PREDICTED: cyclic AMP receptor-like protein A isoform X3 [Hippocampus comes]</Hit_def>
+  <Hit_accession>XP_019750031</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.71854e-10</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MAVLIGFWRLKLLRNHVTKVIACFCATSFCKDFPSTILTLTNTAVNGGFPCYLYAIVITYGSFACWLWTLCLAISIYMLIVKREPEPERFEKYYYLLCWGLPLISTIVMLAKNTVQFVGNWCWIGVSFTGYRFGLFYGPFLFIWAISAVLVGLTSRYTYVVIH---------NGVSDNKEKHLTYQFKLIN-YIIVFLVCWVFAVVNRIVNGLNMFPP--ALNILHTYLSVSHGF</Hsp_qseq>
+      <Hsp_hseq>MLMLFVIWLLRRYRSLAQKMILSLTVAAF---FDSLAYVMGESHPEGSL-CNFQAWWLTYFDWSALAWVCLITLNLYFNLV-REMSTTSYEMFYHLIAWGVPLVMSSLPLLKGYYGPAGAWCWITDDHVAWRFGIWYVPLF---TLILLMICCYARIICVANHRMQSWLGTFNPERERRKVSLAEEIKPLKWYPSVYLLVSTFPLINRLHNALYPLEPSFSLTLLHVFSAPLHGL</Hsp_hseq>
+      <Hsp_midline>M +L   W L+  R+   K+I      +F   F S    +  +   G   C   A  +TY  ++   W   + +++Y  +V RE     +E +Y+L+ WG+PL+ + + L K      G WCWI      +RFG++Y P      +  +++   +R   V  H         N   + ++  L  + K +  Y  V+L+   F ++NR+ N L    P  +L +LH + +  HG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>134739015</Statistics_db-num>
+      <Statistics_db-len>49432462635</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

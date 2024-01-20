@@ -1,0 +1,5 @@
+Uniprot: P32214 
+UniProt:P08799
+UniProt: Q111
+UniProt: P28335
+UniProt: P283!1
